@@ -138,7 +138,7 @@ app.post("/download", function (req, res) {
 		if (selectedModules.includes(i.id)) {
 			
 			// add resource pack files
-			archive.directory("../storage/modules/"+i.id, "assets/minecraft")
+			archive.directory("../storage/modules/"+i.id, "assets")
 
 			// add lang files
 			if (i.lang) {
