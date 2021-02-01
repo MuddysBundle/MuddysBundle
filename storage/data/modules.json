@@ -1,10 +1,10 @@
 [
     {
-        "id": "honeyJar",
-        "label": "Honey Jar",
-        "description": "Changes honey bottle to a jar of honey, and renames the item.",
-        "category": "aesthetic",
-        "lang": true,
-        "author": "Beatso"
+        "id": "beeCreeper",
+        "label": "Bee Creeper",
+        "description": "Every Creeper spawned in flower forests, oak or birch forests will become Bee Creepers!",
+        "category": "aesthetic"
+		"optifine": "required"
+    
     }
 ]
