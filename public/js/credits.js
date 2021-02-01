@@ -56,7 +56,7 @@ xobj.onreadystatechange = function () {
 			else if (i.group=="contributor") groups.contributor.push(i)
 			else groups.contributor.push(i)
 		}
-		createGroupHeader("The Team")
+		createGroupHeader("Developers")
 		for (data of groups.team) {createModuleSelector(data)}
 		createGroupHeader("Other Contributors")
 		for (data of groups.contributor) {createModuleSelector(data)}
