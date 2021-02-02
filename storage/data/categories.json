@@ -1,19 +1,19 @@
 [
 	{
-		"id": "aesthetic",
-		"name": "Aesthetic"
+		"id": "mobs",
+		"name": "Mobs"
 	},
 	{
-		"id": "utility",
-		"name": "Utility"
+		"id": "gear",
+		"name": "Gear"
 	},
 	{
-		"id": "variated",
-		"name": "Variated"
+		"id": "dungeons",
+		"name": "Minecraft: Dungeons themed"
 	},
 	{
-		"id": "fixes",
-		"name": "Fixes & Inconsistencies"
+		"id": "earth",
+		"name": "Minecraft: Earth themed"
 	},
 	{
 		"id": "snapshot",

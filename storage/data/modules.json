@@ -3,8 +3,14 @@
         "id": "beeCreeper",
         "label": "Bee Creeper",
         "description": "Every Creeper spawned in flower forests, oak or birch forests will become Bee Creepers!",
-        "category": "aesthetic"
-		"optifine": "required"
-    
-    }
+        "category": "mobs",
+		"optifine": "required",
+    },
+	{
+        "id": "satanicTrident",
+        "label": "Satanic Trident",
+        "description": "Recolors the Trident with colors straight from hell!",
+        "category": "gear",
+		"optifine": "not required",
+	
 ]
