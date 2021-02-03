@@ -16,6 +16,26 @@
 		"name": "Minecraft: Earth themed"
 	},
 	{
+		"id": "tweaks",
+		"name": "Tweaks & Fixes"
+	},
+	{
+		"id": "misc",
+		"name": "Other & Random packs"
+	},
+	{
+		"id": "moNetherite",
+		"name": "Mo' Netherite related packs"
+	},
+	{
+		"id": "jokePacks",
+		"name": "Packs that are mostly just jokes."
+	},
+	{
+		"id": "basaltColumns",
+		"name": "Packs that are related to Basalt Columns, my community and myself."
+	},
+	{
 		"id": "snapshot",
 		"name": "Snapshot",
 		"description": "Packs designed for snapshots of 1.17, the Caves & Cliffs update. These will not work on 1.16 or below."
