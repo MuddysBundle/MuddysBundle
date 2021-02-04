@@ -1,19 +1,39 @@
 [
 	{
-		"id": "aesthetic",
-		"name": "Aesthetic"
+		"id": "mobs",
+		"name": "Mobs"
 	},
 	{
-		"id": "utility",
-		"name": "Utility"
+		"id": "gear",
+		"name": "Gear"
 	},
 	{
-		"id": "variated",
-		"name": "Variated"
+		"id": "dungeons",
+		"name": "Minecraft: Dungeons themed"
 	},
 	{
-		"id": "fixes",
-		"name": "Fixes & Inconsistencies"
+		"id": "earth",
+		"name": "Minecraft: Earth themed"
+	},
+	{
+		"id": "tweaks",
+		"name": "Tweaks & Fixes"
+	},
+	{
+		"id": "misc",
+		"name": "Other & Random packs"
+	},
+	{
+		"id": "moNetherite",
+		"name": "Mo' Netherite related packs"
+	},
+	{
+		"id": "jokePacks",
+		"name": "Packs that are mostly just jokes."
+	},
+	{
+		"id": "basaltColumns",
+		"name": "Packs that are related to Basalt Columns, my community and myself."
 	},
 	{
 		"id": "snapshot",
