@@ -25,15 +25,18 @@
 	},
 	{
 		"id": "moNetherite",
-		"name": "Mo' Netherite related packs"
+		"name": "Mo' Netherite",
+		"description": "Mo' Netherite related packs"
 	},
 	{
 		"id": "jokePacks",
-		"name": "Packs that are mostly just jokes."
+		"name": "Joke Packs",
+		"description": "Packs that are mostly just jokes."
 	},
 	{
 		"id": "basaltColumns",
-		"name": "Packs that are related to Basalt Columns, my community and myself."
+		"name": "Basalt Columns",
+		"description": "Packs that are related to Basalt Columns, my community and myself."
 	},
 	{
 		"id": "snapshot",
