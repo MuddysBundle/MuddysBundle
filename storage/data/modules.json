@@ -11,14 +11,14 @@
 		"id": "satanicTrident",
 		"label": "Satanic Trident",
 		"description": "Recolors the Trident with colors straight from hell!",
-		"category": "gear"
+		"category": "gear",
 		"incompatibilities": ["amethystTrident","diamondTrident"]
 	},
 	{
 		"id": "diamondTrident",
 		"label": "Diamond Trident",
 		"description": "Recolors the Trident to be themed with the rest of the Diamond Tools.",
-		"category": "gear"
+		"category": "gear",
 		"incompatibilities": ["amethystTrident","satanicTrident"]
 	},
 	{
@@ -26,7 +26,7 @@
 		"label": "Stever Stand",
 		"description": "Adds a cool steve head to the Armor Stand.",
 		"category": "tweaks",
-		"optifine": "required"
+		"optifine": "required",
 		"incompatibilities": ["dungeonsDummy"]
 	},
 	{
@@ -52,42 +52,42 @@
 		"id": "netheriteElytra",
 		"label": "Netherite Elytra",
 		"description": "Recolors Elytra to appear like Netherite.",
-		"category": "moNetherite"
+		"category": "moNetherite",
 		"incompatibilities": ["basaltTrident"]
 	},
 	{
 		"id": "beeStrider",
 		"label": "Bee Strider",
 		"description": "Striders become BEES! ",
-		"category": "jokePacks"
+		"category": "jokePacks",
 		"incompatibilities": ["hotStrider"]
 	},
 	{
 		"id": "basaltite",
 		"label": "Basaltite",
 		"description": "Netherite Tools become Basalt themed.",
-		"category": "gear"
+		"category": "gear",
 		"incompatibilities": ["honeyPackNetherite","emeraldite","sunGrace"]
 	},
 	{
 		"id": "emeraldite",
 		"label": "Emeraldite",
 		"description": "Netherite Tools become Emerald themed.",
-		"category": "gear"
+		"category": "gear",
 		"incompatibilities": ["honeyPackNetherite","basaltite","sunGrace"]
 	},
 	{
 		"id": "sunGrace",
 		"label": "Sun's Grace",
 		"description": "Netherite Tools become Sun's Grace themed",
-		"category": "gear"
+		"category": "gear",
 		"incompatibilities": ["honeyPackNetherite","emeraldite","basaltite"]
 	},
 	{
 		"id": "honeyNetheriteGear",
 		"label": "Honey Gear - Netherite",
 		"description": "Netherite Tools become Sun's Grace themed",
-		"category": "gear"
+		"category": "gear",
 		"incompatibilities": ["sunGrace","basaltite","emeraldite"]
 	},
 	{
@@ -101,7 +101,7 @@
 		"label": "Dungeons Dummy",
 		"description": "Changes Armor Stands to appear like the Dummies from Minecraft: Dungeons.",
 		"category": "dungeons",
-		"optifine": "required"
+		"optifine": "required",
 		"incompatibilities": ["steverStand"]
 	},
 	{
@@ -109,7 +109,7 @@
 		"label": "Picowle",
 		"description": "Cows spawning in certain biomes will become Glowing Pickle Cows",
 		"category": "mobs",
-		"optifine": "required"
+		"optifine": "required",
 		"incompatibilities": ["picowleMicro","picowleMicroPlus"]
 	},
 	{
@@ -117,7 +117,7 @@
 		"label": "Picowle Micro",
 		"description": "Cows spawning in certain biomes will become Glowing Pickle Cows, with smaller pickles.",
 		"category": "mobs",
-		"optifine": "required"
+		"optifine": "required",
 		"incompatibilities": ["picowle","picowleMicroPlus"]
 	},
 	{
@@ -125,7 +125,7 @@
 		"label": "Picowle Micro+",
 		"description": "Cows spawning in certain biomes will become Glowing Pickle Cows, with REAL SMALL pickles.",
 		"category": "mobs",
-		"optifine": "required"
+		"optifine": "required",
 		"incompatibilities": ["picowleMicro","picowle"]
 	},
 	{
@@ -152,49 +152,49 @@
 		"id": "hotStrider",
 		"label": "Hot Strider",
 		"description": "Changes the cold strider texture to be red and cozy at all times!",
-		"category": "tweaks"
+		"category": "tweaks",
 		"incompatibilities": ["beeStrider"]
 	},
 	{
 		"id": "dungeonsLightningRod",
 		"label": "Dungeons Lightning Rod",
 		"description": "Changes Lightning Rod to look like the one from Minecraft: Dungeons",
-		"category": "snapshot"
+		"category": "snapshot",
 		"incompatibilities": ["dungeonsLightningRodPlus","iceWand","iceWandPlus"]
 	},
 	{
 		"id": "dungeonsLightningRodPlus",
 		"label": "Dungeons Lightning Rod+",
 		"description": "Changes Lightning Rod to look like the one from Minecraft: Dungeons, but with extra detail!",
-		"category": "snapshot"
+		"category": "snapshot",
 		"incompatibilities": ["dungeonsLightningRod","iceWand","iceWandPlus"]
 	},
 	{
 		"id": "iceWand",
 		"label": "Ice Wand Lightning Rod",
 		"description": "Changes Lightning Rod to look like the Ice Wand from Minecraft: Dungeons",
-		"category": "snapshot"
+		"category": "snapshot",
 		"incompatibilities": ["dungeonsLightningRod","dungeonsLightningRod","iceWandPlus"]
 	},
 	{
 		"id": "iceWandPlus",
 		"label": "Ice Wand Lightning Rod+",
 		"description": "Changes Lightning Rod to look like the Ice Wand from Minecraft: Dungeons, but with extra detail!",
-		"category": "snapshot"
+		"category": "snapshot",
 		"incompatibilities": ["dungeonsLightningRod","dungeonsLightningRod","iceWand"]
 	},
 	{
 		"id": "quicksand",
 		"label": "Powder2Quicksand",
 		"description": "Changes Powder Snow to Quicksand",
-		"category": "snapshot"
+		"category": "snapshot",
 		"incompatibilities": ["mud"]
 	},
 	{
 		"id": "mud",
 		"label": "Powder2Mud",
 		"description": "Changes Powder Snow to Mud from Minecraft: Earth",
-		"category": "snapshot"
+		"category": "snapshot",
 		"incompatibilities": ["quicksand"]
 	},
 	{
@@ -207,21 +207,21 @@
 		"id": "redstoneSculkSensor",
 		"label": "Redstone Sculk Sensor",
 		"description": "Changes the Sculk Sensor to be Redstone themed.",
-		"category": "snapshot"
+		"category": "snapshot",
 		"incompatibilities": ["redstoneLampSculkSensor","cakeLie"]	
 	},
 	{
 		"id": "redstoneLampSculkSensor",
 		"label": "Redstone Lamp Sculk Sensor",
 		"description": "Changes the Sculk Sensor to be Redstone themed, but with a lamp instead of torches.",
-		"category": "snapshot"
+		"category": "snapshot",
 		"incompatibilities": ["redstoneSculkSensor","cakeLie"]	
 	},
 	{
 		"id": "cakeLie",
 		"label": "Cake is a Lie",
 		"description": "Changes the Sculk Sensor to appear like a cake, a fake one!",
-		"category": "snapshot"
+		"category": "snapshot",
 		"incompatibilities": ["redstoneSculkSensor","redstoneLampSculkSensor"]	
 	},
 	{
@@ -253,7 +253,7 @@
 		"id": "basaltElytra",
 		"label": "Basalt Elytra",
 		"description": "Changes the Elytra to appear like Basalt",
-		"category": "basaltColumns"
+		"category": "basaltColumns",
 		"incompatibilities": ["netheriteElytra"]	
 	},
 	{
@@ -273,21 +273,21 @@
 		"id": "makeupGlowsquid",
 		"label": "Makeup Glow Squid",
 		"description": "Removes a weird glow spot on the Glow Squid's Face.",
-		"category": "snapshot"
+		"category": "snapshot",
 		"incompatibilities": ["glowyGlowsquid","prismarineGlowsquid"]	
 	},
 	{
 		"id": "glowyGlowsquid",
 		"label": "Glowy Glow Squid",
 		"description": "Makes the Glow Squid even more glowier!",
-		"category": "snapshot"
+		"category": "snapshot",
 		"incompatibilities": ["makeupGlowsquidGlowsquid","prismarineGlowsquid"]	
 	},
 	{
 		"id": "prismarineGlowsquid",
 		"label": "Prismarine Glow Squid",
 		"description": "Makes the Glow Squid look prismarine like.",
-		"category": "snapshot"
+		"category": "snapshot",
 		"incompatibilities": ["glowyGlowsquid","makeupGlowsquidGlowsquid"]	
 	},
 	{
@@ -300,7 +300,7 @@
 		"id": "amethystTrident",
 		"label": "Amethyst Trident",
 		"description": "Recolors the Trident to be Amethyst Themed, with sounds too!",
-		"category": "gear"
+		"category": "gear",
 		"incompatibilities": ["satanicTrident","diamondTrident"]
 	},
 	{
