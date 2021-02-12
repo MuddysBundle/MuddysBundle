@@ -23,7 +23,9 @@
 			],
 			"submodels": [
 				{
+					"id": "body_sub_0",
 					"invertAxis": "xy",
+					"translate": [0, 0, 0],
 					"mirrorTexture": "u",
 					"boxes": [
 						{"coordinates": [-8, 12, -2, 4, 12, 4], "textureOffset": [40, 16]}
