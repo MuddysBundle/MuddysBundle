@@ -316,5 +316,18 @@
 		"description": "Changes the rare blue axolotl to Ewan Howell",
 		"category": "snapshot",
 		"incompatibilities": ["boldMuddyAxolotl"]
+	},
+	{
+		"id": "loveGolem",
+		"label": "Love Golem",
+		"description": "Changes the Iron Golem to be Love Themed",
+		"category": "mobs"
+	},
+	{
+		"id": "heartSwords",
+		"label": "Heart Swords",
+		"description": "Changes the all Swords to a Heart on a Stick",
+		"category": "gear",
+		"incompatibilities": ["sunGrace", "honeyDiamondGear", "honeyNetheriteGear"]
 	}
 ]
