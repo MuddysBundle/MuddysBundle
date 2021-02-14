@@ -16,22 +16,9 @@
 		"name": "Minecraft: Dungeons themed"
 	},
 	{
-		"id": "earth",
-		"name": "Minecraft: Earth themed"
-	},
-	{
-		"id": "moNetherite",
-		"name": "Mo' Netherite",
-		"description": "Mo' Netherite related packs"
-	},
-	{
 		"id": "misc",
 		"name": "Other & Random packs"
-	},
-	{
-		"id": "snapshot",
-		"name": "Snapshot",
-		"description": "Packs designed for snapshots of 1.17, the Caves & Cliffs update. These will not work on 1.16 or below."
+
 	},
 	{
 		"id": "basaltColumns",
@@ -39,8 +26,8 @@
 		"description": "Packs that are related to Basalt Columns, my community and myself."
 	},
 	{
-		"id": "jokePacks",
-		"name": "Joke Packs",
-		"description": "Packs that are mostly just jokes."
+		"id": "snapshot",
+		"name": "Snapshot",
+		"description": "Packs designed for snapshots of 1.17, the Caves & Cliffs update. These will not work on 1.16 or below."
 	}
 ]

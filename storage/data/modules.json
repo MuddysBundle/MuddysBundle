@@ -45,21 +45,21 @@
 		"id": "netheriteShields",
 		"label": "Netherite Shields",
 		"description": "You can rename shields to '<material> shield' and it will change. List of materials can be found in the files.",
-		"category": "moNetherite",
+		"category": "gear",
 		"optifine": "required"
 	},
 	{
 		"id": "netheriteElytra",
 		"label": "Netherite Elytra",
 		"description": "Recolors Elytra to appear like Netherite.",
-		"category": "moNetherite",
+		"category": "gear",
 		"incompatibilities": ["basaltTrident"]
 	},
 	{
 		"id": "beeStrider",
 		"label": "Bee Strider",
 		"description": "Striders become BEES! ",
-		"category": "jokePacks",
+		"category": "mobs",
 		"incompatibilities": ["hotStrider"]
 	},
 	{
@@ -132,7 +132,7 @@
 		"id": "uwuCreepers",
 		"label": "UwU Creepers",
 		"description": "As if those creeplings weren't creepy enough... prepare to get spooked!",
-		"category": "jokePacks",
+		"category": "mobs",
 		"optifine": "required",
 		"incompatibilities": ["beeCreeper"]
 	},
@@ -140,7 +140,7 @@
 		"id": "uwuLanguage",
 		"label": "UwU Language",
 		"description": "Repalces every 'r' with a 'w'.",
-		"category": "jokePacks"
+		"category": "misc"
 	},
 	{
 		"id": "armorMobs",
@@ -247,7 +247,8 @@
 		"id": "boldMuddyAxolotl",
 		"label": "Bold Muddy Axolotl",
 		"description": "Changes the rare blue axolotl to Bold Muddy",
-		"category": "snapshot"
+		"category": "snapshot",
+		"incompatibilities": ["ewanAxolotl"]
 	},
 	{
 		"id": "basaltElytra",
@@ -308,5 +309,11 @@
 		"label": "Buzzy Nest",
 		"description": "Replaces Acacia Signs with the Buzzy Nest from Minecraft: Dungeons",
 		"category": "dungeons"
-	}
+	},
+	{
+		"id": "ewanAxolotl",
+		"label": "Ewan Axolotl",
+		"description": "Changes the rare blue axolotl to Ewan Howell",
+		"category": "snapshot",
+		"incompatibilities": ["boldMuddyAxolotl"]
 ]
