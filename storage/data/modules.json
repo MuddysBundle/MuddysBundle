@@ -316,4 +316,5 @@
 		"description": "Changes the rare blue axolotl to Ewan Howell",
 		"category": "snapshot",
 		"incompatibilities": ["boldMuddyAxolotl"]
+	}
 ]
