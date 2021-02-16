@@ -2,10 +2,10 @@
 	{
 		"id": "beeCreeper",
 		"label": "Bee Creeper",
-		"description": "Every Creeper spawned in flower forests, oak or birch forests will become Bee Creepers!",
+		"description": "Any Creeper spawned in flower forests, oak or birch forests will become Bee Creepers!",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["uwuCreepers"]
+		"incompatibilities": ["uwuCreepers", "beeCreeperDungeons"]
 	},
 	{
 		"id": "satanicTrident",
@@ -110,7 +110,7 @@
 		"description": "Cows spawning in certain biomes will become Glowing Pickle Cows",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["picowleMicro","picowleMicroPlus"]
+		"incompatibilities": ["picowleMicro","picowleMicroPlus","cowStyledMoobloom"]
 	},
 	{
 		"id": "picowleMicro",
@@ -118,7 +118,7 @@
 		"description": "Cows spawning in certain biomes will become Glowing Pickle Cows, with smaller pickles.",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["picowle","picowleMicroPlus"]
+		"incompatibilities": ["picowle","picowleMicroPlus","cowStyledMoobloom"]
 	},
 	{
 		"id": "picowleMicroPlus",
@@ -126,7 +126,7 @@
 		"description": "Cows spawning in certain biomes will become Glowing Pickle Cows, with REAL SMALL pickles.",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["picowleMicro","picowle"]
+		"incompatibilities": ["picowleMicro","picowle","cowStyledMoobloom"]
 	},
 	{
 		"id": "uwuCreepers",
@@ -329,5 +329,21 @@
 		"description": "Changes the all Swords to a Heart on a Stick",
 		"category": "gear",
 		"incompatibilities": ["sunGrace", "honeyDiamondGear", "honeyNetheriteGear"]
-	}
+	},	
+	{
+		"id": "beeCreeperDungeons",
+		"label": "Dungeons Bee Creeper",
+		"description": "Any Creeper spawned in flower forests, oak or birch forests will become Bee Creepers!, but with the Dungeons Creeper",
+		"category": "mobs",
+		"optifine": "required",
+		"incompatibilities": ["uwuCreepers", "beeCreeper"]
+	},	
+	{
+		"id": "cowStyledMoobloom",
+		"label": "Cow Styled Moobloom",
+		"description": "Any Cow spawned in flower forests or sunflower plains will become a Moobloom, but with the style of the vanilla cow",
+		"category": "mobs",
+		"optifine": "required",
+		"incompatibilities": ["picowle", "picowleMicro", "picowleMicroPlus"]
+	{
 ]
