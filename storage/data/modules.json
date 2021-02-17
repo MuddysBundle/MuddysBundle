@@ -345,5 +345,5 @@
 		"category": "mobs",
 		"optifine": "required",
 		"incompatibilities": ["picowle", "picowleMicro", "picowleMicroPlus"]
-	{
+	}
 ]
