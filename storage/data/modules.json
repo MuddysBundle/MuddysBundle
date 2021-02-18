@@ -308,7 +308,8 @@
 		"id": "buzzyNest",
 		"label": "Buzzy Nest",
 		"description": "Replaces Acacia Signs with the Buzzy Nest from Minecraft: Dungeons",
-		"category": "dungeons"
+		"category": "dungeons",
+		"optifine": "required"
 	},
 	{
 		"id": "ewanAxolotl",
@@ -345,5 +346,47 @@
 		"category": "mobs",
 		"optifine": "required",
 		"incompatibilities": ["picowle", "picowleMicro", "picowleMicroPlus"]
+	},	
+	{
+		"id": "earthHoods",
+		"label": "Minecraft: Earth themed Hoods.",
+		"description": "Moobloom, Bold Rabbit, Cluckshroom, Horned Sheep, Muddy Pig and Earth Hero Hoods.",
+		"category": "pumpkinHats",
+		"optifine": "required"
+	},	
+	{
+		"id": "earthJournal",
+		"label": "Minecraft: Earth Journal Book",
+		"description": "Rename Carved Pumpkin to Earth Journal.",
+		"category": "pumpkinHats",
+		"optifine": "required"
+	},	
+	{
+		"id": "boldMuddyHood",
+		"label": "Bold Muddy Hood",
+		"description": "Rename Carved Pumpkin to Bold Muddy Hood",
+		"category": "basaltColumns",
+		"optifine": "required"
+	},	
+	{
+		"id": "beeCreeperHood",
+		"label": "Bee Creeper Hood",
+		"description": "Rename Carved Pumpkin to Bee Creeper Hood",
+		"category": "pumpkinHats",
+		"optifine": "required"
+	},	
+	{
+		"id": "melonGolemMask",
+		"label": "Melon Golem Mask",
+		"description": "Rename Carved Pumpkin to Carved Melon or Angry Carved Melon",
+		"category": "pumpkinHats",
+		"optifine": "required"
+	},	
+	{
+		"id": "archIllagerCrown",
+		"label": "Arch Illager Crown",
+		"description": "Rename Carved Pumpkin to Arch Illager Crown",
+		"category": "dungeons",
+		"optifine": "required"
 	}
 ]
