@@ -150,29 +150,20 @@ function createModuleSelector(data) {
 
 }
 
-const createCategory = (data) => {
+const createCategory = (id) => {
 
 	const div = document.createElement("div")
-	div.setAttribute("id", data.id)
+	div.setAttribute("id", id)
 	div.setAttribute("class","grid-container")
 	document.getElementById("pack-selector-container").appendChild(div)
 
 	const header = document.createElement("div")
-	header.setAttribute("class","grid-item selection-box section-header unselected")
+	header.setAttribute("class","grid-item section-header selection-box")
 	div.appendChild(header)
 
-	const name = document.createElement("p")
-	name.appendChild(document.createTextNode(data.name))
-	header.appendChild(name)
-
-	if (data.description!=undefined) {
-		const description = document.createElement("p")
-		description.appendChild(document.createTextNode(data.description))
-		description.setAttribute("class","section-description")
-		header.appendChild(description)
-		name.setAttribute("class","section-name section-name-with-description")
-	}
-	else name.setAttribute("class","section-name")
+	const image = document.createElement("img")
+	image.setAttribute("src", `/headers/${id}.png`)
+	header.appendChild(image)
 
 }
 
@@ -190,11 +181,10 @@ modulesxobj.onreadystatechange = function () {
 			if (categoriesxobj.readyState == 4 && categoriesxobj.status == "200") {
 
 				modulesJSON = JSON.parse(modulesxobj.responseText) // Parse JSON string into object
-				categoryData = JSON.parse(categoriesxobj.responseText)
+				categoryList = JSON.parse(categoriesxobj.responseText)
 
 				modulesJSON.sort((a, b) => (a.label > b.label) ? 1 : -1) // alphabetically sort modules
 				
-				const categoryList = categoryData.map(i=>i.id)
 				let categories = {}
 
 				for (category of categoryList) categories[category] = []
@@ -202,19 +192,19 @@ modulesxobj.onreadystatechange = function () {
 				for (index in modulesJSON) if (!modulesJSON[index].hidden) {
 
 					if (!categoryList.includes(modulesJSON[index].category)) {
-						modulesJSON[index].category = "aesthetic" // make category aesthetic if no valid category is provided
+						modulesJSON[index].category = "tweaks" // make category tweaks if no valid category is provided
 					}
 
 					categories[modulesJSON[index].category].push(modulesJSON[index]) // add category to 
 				}
 				
-				for (category of categoryData) {
+				for (id of categoryList) {
 
 					// create category
-					createCategory(category)
+					createCategory(id)
 
 					// add modules to category
-					for (data of categories[category.id]) createModuleSelector(data)
+					for (data of categories[id]) createModuleSelector(data)
 					
 				}
 

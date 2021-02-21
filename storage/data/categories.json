@@ -1,39 +1,10 @@
 [
-	{
-		"id": "tweaks",
-		"name": "Tweaks & Fixes"
-	},
-	{
-		"id": "mobs",
-		"name": "Mobs"
-	},
-	{
-		"id": "gear",
-		"name": "Gear",
-		"description": "Armor, Weaons, Tools and such"
-	},
-	{
-		"id": "dungeons",
-		"name": "Minecraft: Dungeons themed packs"
-	},
-	{
-		"id": "pumpkinHats",
-		"name": "Pumpkin Hats",
-		"description": "Allows you to rename Carved Pumpkins a certain way to get custom hats or masks."
-	},
-	{
-		"id": "misc",
-		"name": "Other & Random packs"
-
-	},
-	{
-		"id": "basaltColumns",
-		"name": "Basalt Columns",
-		"description": "Packs that are related to Basalt Columns, my community and myself."
-	},
-	{
-		"id": "snapshot",
-		"name": "Snapshot",
-		"description": "Packs designed for snapshots of 1.17, the Caves & Cliffs update. These will not work on 1.16 or below."
-	}
+	"tweaks",
+	"mobs",
+	"gear",
+	"dungeons",
+	"pumpkinHats",
+	"misc",
+	"basaltColumns",
+	"snapshot"
 ]
