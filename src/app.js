@@ -9,7 +9,7 @@ const streamZip = require("node-stream-zip")
 const path = require("path")
 const Dropbox = require("dropbox").Dropbox
 require("isomorphic-fetch")
-require("dotenv").config()
+require("dotenv").config({ path: "../.env"})
 
 // setup Dropbox
 const dbx = new Dropbox ({ fetch: fetch, accessToken: process.env.DBXACCESSTOKEN })
