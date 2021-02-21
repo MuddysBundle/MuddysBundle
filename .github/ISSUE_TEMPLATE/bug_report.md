@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-<!--  Hey there! Thanks for reporting a bug about Little Improvements: Custom. Please fill out the information below to help us understand and fix the problem as soon as possible. Thanks :)  -->
+<!--  Hey there! Thanks for reporting a bug about Muddy's Bundle. Please fill out the information below to help us understand and fix the problem as soon as possible. Thanks :)  -->
 
 ### Description of bug
 A clear and concise description of what the bug is.

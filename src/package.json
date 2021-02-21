@@ -10,11 +10,11 @@
 		"test": "npx mocha --exit",
 		"lint": "eslint ."
 	},
-	"repository": "github:LittleImprovementsCustom/LittleImprovementsCustom",
+	"repository": "github:MuddysBundle/MuddysBundle",
 	"author": "Beatso",
 	"license": "GPL-3.0",
 	"bugs": {
-		"url": "https://github.com/LittleImprovementsCustom/LittleImprovementsCustom/issues"
+		"url": "https://github.com/MuddysBundle/MuddysBundle/issues"
 	},
 	"dependencies": {
 		"archiver": "^5.2.0",
