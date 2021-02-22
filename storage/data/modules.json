@@ -282,14 +282,14 @@
 		"label": "Glowy Glow Squid",
 		"description": "Makes the Glow Squid even more glowier!",
 		"category": "snapshot",
-		"incompatibilities": ["makeupGlowsquidGlowsquid","prismarineGlowsquid"]	
+		"incompatibilities": ["makeupGlowsquid","prismarineGlowsquid"]	
 	},
 	{
 		"id": "prismarineGlowsquid",
 		"label": "Prismarine Glow Squid",
 		"description": "Makes the Glow Squid look prismarine like.",
 		"category": "snapshot",
-		"incompatibilities": ["glowyGlowsquid","makeupGlowsquidGlowsquid"]	
+		"incompatibilities": ["glowyGlowsquid","makeupGlowsquid"]	
 	},
 	{
 		"id": "corruptedBeacon",
