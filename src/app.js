@@ -8,6 +8,7 @@ const os = require("os")
 const streamZip = require("node-stream-zip")
 const path = require("path")
 const Dropbox = require("dropbox").Dropbox
+const { get } = require("http")
 require("isomorphic-fetch")
 require("dotenv").config({ path: "../.env"})
 
@@ -31,13 +32,12 @@ app.use((req, res, next) => {
 })
 
 // dynamically serve get requests from requests.json
-const getRequests = JSON.parse(fs.readFileSync("../storage/data/requests.json"))
-const pathnames = getRequests.map(i=>i.url)
-for (i of getRequests) app.get(i.url, (req, res) => {
-	const pathname = req._parsedOriginalUrl.pathname
-	const filePath = getRequests[pathnames.indexOf(pathname)].file
-	res.sendFile(filePath, { root: "../" })
-})
+JSON.parse(fs.readFileSync("../storage/data/requests.json"))
+	.forEach(element => {
+		app.get(element.url, (req, res) => {
+			res.sendFile(element.file, { root: "../"})
+		})
+	})
 
 app.get("/test", (req,res)=>res.send("hello world"))
 

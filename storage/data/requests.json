@@ -34,5 +34,9 @@
 	{
 		"url": "/404/mobile",
 		"file": "public/404_mobile.html"
+	},
+	{
+		"url": "*",
+		"file": "/public/404.html"
 	}
 ]
