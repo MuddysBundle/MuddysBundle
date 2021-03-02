@@ -144,6 +144,7 @@ body {
 	padding: 0;
 	grid-column: 1 / -1;
 	text-align: center;
+	background-image: url('/backgrounds/blackstone.png');
 }
 
 .section-name {
