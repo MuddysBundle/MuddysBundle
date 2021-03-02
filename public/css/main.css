@@ -144,16 +144,6 @@ body {
 	padding: 0;
 	grid-column: 1 / -1;
 	text-align: center;
-	background-color: transparent;
-}
-
-.section-header > img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 10px;
-	max-height: 200px;
-	max-width: 100%;
 }
 
 .section-name {
