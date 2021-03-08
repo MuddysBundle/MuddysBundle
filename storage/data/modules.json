@@ -40,6 +40,7 @@
 		"label": "Death Capped",
 		"description": "Changes everything Brown Mushroom to Death Cap Mushroom.",
 		"category": "dungeons"
+		"incompatibilities": ["picowle", "picowleMicro", "picowleMicroPlus","cowStyledMoobloom","moobloomStyledCows"]
 	},
 	{
 		"id": "netheriteShields",
@@ -110,7 +111,7 @@
 		"description": "Cows spawning in certain biomes will become Glowing Pickle Cows",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["picowleMicro","picowleMicroPlus","cowStyledMoobloom"]
+		"incompatibilities": ["picowleMicro","picowleMicroPlus","cowStyledMoobloom","deathCapped","moobloomStyledCows"]
 	},
 	{
 		"id": "picowleMicro",
@@ -118,7 +119,7 @@
 		"description": "Cows spawning in certain biomes will become Glowing Pickle Cows, with smaller pickles.",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["picowle","picowleMicroPlus","cowStyledMoobloom"]
+		"incompatibilities": ["picowle","picowleMicroPlus","cowStyledMoobloom","deathCapped","moobloomStyledCows"]
 	},
 	{
 		"id": "picowleMicroPlus",
@@ -126,7 +127,7 @@
 		"description": "Cows spawning in certain biomes will become Glowing Pickle Cows, with REAL SMALL pickles.",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["picowleMicro","picowle","cowStyledMoobloom"]
+		"incompatibilities": ["picowleMicro","picowle","cowStyledMoobloom","deathCapped","moobloomStyledCows"]
 	},
 	{
 		"id": "uwuCreepers",
@@ -345,7 +346,7 @@
 		"description": "Any Cow spawned in flower forests or sunflower plains will become a Moobloom, but with the style of the vanilla cow",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["picowle", "picowleMicro", "picowleMicroPlus"]
+		"incompatibilities": ["picowle", "picowleMicro", "picowleMicroPlus","deathCapped","moobloomStyledCows"]
 	},	
 	{
 		"id": "earthHoods",
@@ -388,5 +389,12 @@
 		"description": "Rename Carved Pumpkin to Arch Illager Crown",
 		"category": "dungeons",
 		"optifine": "required"
+	},
+	{
+		"id": "moobloomStyledCows",
+		"label": "Moobloom Styled Cows",
+		"description": "Changes every cow to appear with the Moobloom design.",
+		"category": "tweaks"
+		"incompatibilities": ["picowle", "picowleMicro", "picowleMicroPlus","cowStyledMoobloom","deathCapped"]
 	}
 ]
