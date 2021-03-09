@@ -394,7 +394,7 @@
 		"id": "moobloomStyledCows",
 		"label": "Moobloom Styled Cows",
 		"description": "Changes every cow to appear with the Moobloom design.",
-		"category": "tweaks"
+		"category": "tweaks",
 		"incompatibilities": ["picowle", "picowleMicro", "picowleMicroPlus","cowStyledMoobloom","deathCapped"]
 	}
 ]
