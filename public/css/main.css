@@ -4,15 +4,19 @@ body {
 	font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-div.title {
+span.title {
 	font-size: xx-large;
+}
+
+div.middle-div {
 	padding-left: 1vw;
 	height: 150px;
 	display: flex;
 }
 
-div.title > span {
+div.middle-div > span {
 	align-self: flex-end;
+	/* margin-bottom: 10ox; */
 	margin: 0;
 }
 
@@ -36,7 +40,7 @@ hr {
 	background-color:var(--separator);
 }
 
-.description {
+span.description {
 	font-size: large;
 	padding-left: 1vw;
 }
