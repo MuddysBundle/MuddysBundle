@@ -39,7 +39,7 @@
 		"id": "deathCapped",
 		"label": "Death Capped",
 		"description": "Changes everything Brown Mushroom to Death Cap Mushroom.",
-		"category": "dungeons"
+		"category": "dungeons",
 		"incompatibilities": ["picowle", "picowleMicro", "picowleMicroPlus","cowStyledMoobloom","moobloomStyledCows"]
 	},
 	{
