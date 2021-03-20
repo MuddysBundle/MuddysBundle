@@ -5,7 +5,7 @@
 		"description": "Any Creeper spawned in flower forests, oak or birch forests will become Bee Creepers!",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["uwuCreepers", "beeCreeperDungeons"]
+		"incompatibilities": ["uwuCreepers",]
 	},
 	{
 		"id": "satanicTrident",
@@ -54,7 +54,7 @@
 		"label": "Netherite Elytra",
 		"description": "Recolors Elytra to appear like Netherite.",
 		"category": "gear",
-		"incompatibilities": ["basaltTrident"]
+		"incompatibilities": ["basaltElytra"]
 	},
 	{
 		"id": "beeStrider",
@@ -68,14 +68,14 @@
 		"label": "Basaltite",
 		"description": "Netherite Tools become Basalt themed.",
 		"category": "gear",
-		"incompatibilities": ["honeyPackNetherite","emeraldite","sunGrace"]
+		"incompatibilities": ["honeyPackNetherite", "emeraldite", "sunGrace"]
 	},
 	{
 		"id": "emeraldite",
 		"label": "Emeraldite",
 		"description": "Netherite Tools become Emerald themed.",
 		"category": "gear",
-		"incompatibilities": ["honeyPackNetherite","basaltite","sunGrace"]
+		"incompatibilities": ["honeyPackNetherite","basaltite","sunGrace", "heartSwords"]
 	},
 	{
 		"id": "sunGrace",
@@ -135,7 +135,7 @@
 		"description": "As if those creeplings weren't creepy enough... prepare to get spooked!",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["beeCreeper"]
+		"incompatibilities": ["beeCreeper", "beeCreeperDungeons"]
 	},
 	{
 		"id": "uwuLanguage",
@@ -157,32 +157,18 @@
 		"incompatibilities": ["beeStrider"]
 	},
 	{
-		"id": "dungeonsLightningRod",
-		"label": "Dungeons Lightning Rod",
-		"description": "Changes Lightning Rod to look like the one from Minecraft: Dungeons",
-		"category": "snapshot",
-		"incompatibilities": ["dungeonsLightningRodPlus","iceWand","iceWandPlus"]
-	},
-	{
 		"id": "dungeonsLightningRodPlus",
 		"label": "Dungeons Lightning Rod+",
-		"description": "Changes Lightning Rod to look like the one from Minecraft: Dungeons, but with extra detail!",
+		"description": "Changes Lightning Rod to look like the one from Minecraft: Dungeons!",
 		"category": "snapshot",
-		"incompatibilities": ["dungeonsLightningRod","iceWand","iceWandPlus"]
-	},
-	{
-		"id": "iceWand",
-		"label": "Ice Wand Lightning Rod",
-		"description": "Changes Lightning Rod to look like the Ice Wand from Minecraft: Dungeons",
-		"category": "snapshot",
-		"incompatibilities": ["dungeonsLightningRod","dungeonsLightningRod","iceWandPlus"]
+		"incompatibilities": ["iceWandPlus"]
 	},
 	{
 		"id": "iceWandPlus",
 		"label": "Ice Wand Lightning Rod+",
-		"description": "Changes Lightning Rod to look like the Ice Wand from Minecraft: Dungeons, but with extra detail!",
+		"description": "Changes Lightning Rod to look like the Ice Wand from Minecraft: Dungeons!",
 		"category": "snapshot",
-		"incompatibilities": ["dungeonsLightningRod","dungeonsLightningRod","iceWand"]
+		"incompatibilities": ["dungeonsLightningRodPlus"]
 	},
 	{
 		"id": "quicksand",
@@ -276,21 +262,21 @@
 		"label": "Makeup Glow Squid",
 		"description": "Removes a weird glow spot on the Glow Squid's Face.",
 		"category": "snapshot",
-		"incompatibilities": ["glowyGlowsquid","prismarineGlowsquid"]	
+		"incompatibilities": ["glowyGlowsquid","prismarineGlowsquid", "glowPickler"]	
 	},
 	{
 		"id": "glowyGlowsquid",
 		"label": "Glowy Glow Squid",
 		"description": "Makes the Glow Squid even more glowier!",
 		"category": "snapshot",
-		"incompatibilities": ["makeupGlowsquid","prismarineGlowsquid"]	
+		"incompatibilities": ["makeupGlowsquid","prismarineGlowsquid", "glowPickler"]	
 	},
 	{
 		"id": "prismarineGlowsquid",
 		"label": "Prismarine Glow Squid",
 		"description": "Makes the Glow Squid look prismarine like.",
 		"category": "snapshot",
-		"incompatibilities": ["glowyGlowsquid","makeupGlowsquid"]	
+		"incompatibilities": ["glowyGlowsquid","makeupGlowsquid", "glowPickler"]	
 	},
 	{
 		"id": "corruptedBeacon",
@@ -330,7 +316,7 @@
 		"label": "Heart Swords",
 		"description": "Changes the all Swords to a Heart on a Stick",
 		"category": "gear",
-		"incompatibilities": ["sunGrace", "honeyDiamondGear", "honeyNetheriteGear"]
+		"incompatibilities": ["sunGrace", "honeyDiamondGear", "honeyNetheriteGear", "heartSwords"]
 	},	
 	{
 		"id": "beeCreeperDungeons",
@@ -356,7 +342,7 @@
 		"optifine": "required"
 	},	
 	{
-		"id": "earthJournal",
+		"id": "earthJournalHat",
 		"label": "Minecraft: Earth Journal Book",
 		"description": "Rename Carved Pumpkin to Earth Journal.",
 		"category": "pumpkinHats",
@@ -396,5 +382,36 @@
 		"description": "Changes every cow to appear with the Moobloom design.",
 		"category": "tweaks",
 		"incompatibilities": ["picowle", "picowleMicro", "picowleMicroPlus","cowStyledMoobloom","deathCapped"]
+	},	
+	{
+		"id": "corruptedPumpkin",
+		"label": "Corrupted Pumpkin",
+		"description": "Jack O Lanterns become Corrupted Pumpkins, but you can also rename a Carved Pumpkin to Corrupted Pumpkin.",
+		"category": "dungeons",
+	},	
+	{
+		"id": "dungeonsSoulLantern",
+		"label": "Dungeons Soul Lantern",
+		"description": "Soul Lanterns are changed to appear like the Artifact from Minecraft: Dungeons.",
+		"category": "dungeons",
+	},	
+	{
+		"id": "lushCampfire",
+		"label": "Lush Campfire",
+		"description": "Spore Blossoms are changed to appear like upside down green flamed campfires.",
+		"category": "snapshot",
+	},	
+	{
+		"id": "glowPickler",
+		"label": "Glow Pickler",
+		"description": "Changes the Glow Squid to appear like a Sea Pickle.",
+		"category": "snapshot",
+		"incompatibilities": ["makeupGlowsquid", "glowyGlowsquid", "prismarineGlowsquid"]
+	},	
+	{
+		"id": "earthJournal",
+		"label": "Earth Journal Items",
+		"description": "Replaces all books with the journal from Minecraft: Earth",
+		"category": "misc",
 	}
 ]
