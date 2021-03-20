@@ -5,7 +5,7 @@
 		"description": "Any Creeper spawned in flower forests, oak or birch forests will become Bee Creepers!",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["uwuCreepers",]
+		"incompatibilities": ["uwuCreepers"]
 	},
 	{
 		"id": "satanicTrident",
@@ -387,19 +387,19 @@
 		"id": "corruptedPumpkin",
 		"label": "Corrupted Pumpkin",
 		"description": "Jack O Lanterns become Corrupted Pumpkins, but you can also rename a Carved Pumpkin to Corrupted Pumpkin.",
-		"category": "dungeons",
+		"category": "dungeons"
 	},	
 	{
 		"id": "dungeonsSoulLantern",
 		"label": "Dungeons Soul Lantern",
 		"description": "Soul Lanterns are changed to appear like the Artifact from Minecraft: Dungeons.",
-		"category": "dungeons",
+		"category": "dungeons"
 	},	
 	{
 		"id": "lushCampfire",
 		"label": "Lush Campfire",
 		"description": "Spore Blossoms are changed to appear like upside down green flamed campfires.",
-		"category": "snapshot",
+		"category": "snapshot"
 	},	
 	{
 		"id": "glowPickler",
@@ -412,6 +412,6 @@
 		"id": "earthJournal",
 		"label": "Earth Journal Items",
 		"description": "Replaces all books with the journal from Minecraft: Earth",
-		"category": "misc",
+		"category": "misc"
 	}
 ]
