@@ -1,7 +1,13 @@
 body {
-	background-color: var(--background);
+	/* background-color: var(--background); */
 	color: var(--font-color);
 	font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	/* background-image: url('/backgrounds/powder_basalt.png'); */
+	background-image: url('/backgrounds/powder_basalt.png');
+}
+
+body::before {
+	background: rgba(0,0,0,0)
 }
 
 span.title {
