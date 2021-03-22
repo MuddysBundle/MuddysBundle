@@ -67,8 +67,11 @@ span.description {
 	list-style-type: none;
 	background-color: var(--primary-background);
 	overflow: auto; /* Enable scrolling if the sidenav has too much content */
-	border-radius: 10px;
 	padding: 0 16px 0 0;
+	  border: 4px solid black;
+  box-shadow:
+    inset 4px 4px 0 0px #d6d6d6,
+    inset -4px -4px 0 0px #585658;
 }
 
 .navbar > li {
@@ -76,6 +79,8 @@ span.description {
 	padding: 8px 0 8px 16px;
 	text-align:center;
 	cursor: pointer;
+	  box-shadow:
+    inset 4px 0 0 0px #d6d6d6;
 }
 
 .primary-navbar-item {
@@ -90,6 +95,10 @@ span.description {
 	display: block;
 	padding: 8px 16px;
 	text-decoration: none;
+	  border: 4px solid black;
+  box-shadow:
+    inset 4px 4px 0 0px #d6d6d6,
+    inset -4px -4px 0 0px #585658;
 }
 
 .primary-navbar-link {
@@ -107,17 +116,22 @@ span.description {
 .upload-container {
 	overflow: auto; /* Enable scrolling if the sidenav has too much content */
 	bottom: 16px;
-	border-radius: 10px;
 	background-color: var(--primary-background);
 	padding: 16px;
 	line-height: 1.6;
 	list-style-type: none;
 	padding: 0 16px 0 0;
+	  border: 4px solid black;
+  box-shadow:
+    inset 4px 4px 0 0px #d6d6d6,
+    inset -4px -4px 0 0px #585658;
 }
 
 .upload-container > li {
 	display: block;
 	padding: 8px 0 8px 16px;
+  box-shadow:
+    inset 4px 0 0 0px #d6d6d6;
 }
 
 .upload-title {
@@ -134,9 +148,12 @@ span.description {
 
 .selection-box {
 	width: auto;
-	border-radius: 2vw;
 	padding: 5px;
 	margin: 20px;
+	border: 4px solid black;
+  	box-shadow:
+    inset 4px 4px 0 0px #d6d6d6,
+    inset -4px -4px 0 0px #585658;
 }
 
 .selectable {
@@ -179,6 +196,7 @@ span.description {
 .selected {
 	background-color: var(--emphasis-background);
 	color: var(--font-color);
+	border: 5px solid #20191E;
 }
 
 .not-selectable {

@@ -1,6 +1,6 @@
 :root {
 	--primary-background: #202020;
-	--secondary-background: #1d1d1d;
+	--secondary-background: rgba(29,29,29,0.6);
     --emphasis-background: #191919;
     --separator: #5E6063;
     --font-color: white;
