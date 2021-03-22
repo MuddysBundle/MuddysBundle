@@ -1,0 +1,63 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"texture_size": [32, 32],
+	"textures": {
+        "particle": "#lantern"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 3],
+			"to": [13, 6, 13],
+			"faces": {
+				"north": {"uv": [11, 5, 16, 8], "texture": "#lantern"},
+				"east": {"uv": [11, 5, 16, 8], "texture": "#lantern"},
+				"south": {"uv": [11, 5, 16, 8], "texture": "#lantern"},
+				"west": {"uv": [11, 5, 16, 8], "texture": "#lantern"},
+				"up": {"uv": [11, 0, 16, 5], "texture": "#lantern"},
+				"down": {"uv": [16, 0, 11, 5], "texture": "#lantern"}
+			}
+		},
+		{
+			"from": [6, 6, 6],
+			"to": [10, 8, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7, 8]},
+			"faces": {
+				"north": {"uv": [0, 2, 2, 3], "texture": "#lantern"},
+				"east": {"uv": [0, 2, 2, 3], "texture": "#lantern"},
+				"south": {"uv": [0, 2, 2, 3], "texture": "#lantern"},
+				"west": {"uv": [0, 2, 2, 3], "texture": "#lantern"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#lantern"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#lantern"}
+			}
+		},
+		{
+			"from": [6.5, 8, 8],
+			"to": [9.5, 10, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [0, 10.5, 1.5, 12.5], "texture": "#lantern"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#lantern"},
+				"south": {"uv": [0, 15, 1.5, 16], "texture": "#lantern"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#lantern"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#lantern"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#lantern"}
+			}
+		},
+		{
+			"from": [8, 8, 6.5],
+			"to": [8, 10, 9.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#lantern"},
+				"east": {"uv": [0, 15, 1.5, 16], "texture": "#lantern"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#lantern"},
+				"west": {"uv": [0, 10.5, 1.5, 12.5], "texture": "#lantern"},
+				"up": {"uv": [0, 0, 0, 0], "rotation": 270, "texture": "#lantern"},
+				"down": {"uv": [0, 0, 0, 0], "rotation": 90, "texture": "#lantern"}
+			}
+		}
+	]
+}

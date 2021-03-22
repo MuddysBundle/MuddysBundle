@@ -5,7 +5,7 @@
 		"description": "Any Creeper spawned in flower forests, oak or birch forests will become Bee Creepers!",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["uwuCreepers"]
+		"incompatibilities": ["uwuCreepers", "beeCreeperDungeons", "mossCreeper"]
 	},
 	{
 		"id": "satanicTrident",
@@ -135,7 +135,7 @@
 		"description": "As if those creeplings weren't creepy enough... prepare to get spooked!",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["beeCreeper", "beeCreeperDungeons"]
+		"incompatibilities": ["beeCreeper", "beeCreeperDungeons", "mossCreeper"]
 	},
 	{
 		"id": "uwuLanguage",
@@ -229,6 +229,7 @@
 		"description": "Any fox or rabbit who spawn in Basalt Deltas will become EVIL basalt mobs!",
 		"category": "basaltColumns",
 		"optifine": "required"
+		"incompatibilities": ["pinkFoxes"]	
 	},
 	{
 		"id": "boldMuddyAxolotl",
@@ -262,21 +263,21 @@
 		"label": "Makeup Glow Squid",
 		"description": "Removes a weird glow spot on the Glow Squid's Face.",
 		"category": "snapshot",
-		"incompatibilities": ["glowyGlowsquid","prismarineGlowsquid", "glowPickler"]	
+		"incompatibilities": ["glowyGlowsquid","prismarineGlowsquid", "glowPickler", "glowmethystSquid"]	
 	},
 	{
 		"id": "glowyGlowsquid",
 		"label": "Glowy Glow Squid",
 		"description": "Makes the Glow Squid even more glowier!",
 		"category": "snapshot",
-		"incompatibilities": ["makeupGlowsquid","prismarineGlowsquid", "glowPickler"]	
+		"incompatibilities": ["makeupGlowsquid","prismarineGlowsquid", "glowPickler", "glowmethystSquid"]	
 	},
 	{
 		"id": "prismarineGlowsquid",
 		"label": "Prismarine Glow Squid",
 		"description": "Makes the Glow Squid look prismarine like.",
 		"category": "snapshot",
-		"incompatibilities": ["glowyGlowsquid","makeupGlowsquid", "glowPickler"]	
+		"incompatibilities": ["glowyGlowsquid","makeupGlowsquid", "glowPickler", "glowmethystSquid"]	
 	},
 	{
 		"id": "corruptedBeacon",
@@ -324,7 +325,7 @@
 		"description": "Any Creeper spawned in flower forests, oak or birch forests will become Bee Creepers!, but with the Dungeons Creeper",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["uwuCreepers", "beeCreeper"]
+		"incompatibilities": ["uwuCreepers", "beeCreeper", "mossCreeper"]
 	},	
 	{
 		"id": "cowStyledMoobloom",
@@ -363,11 +364,11 @@
 		"optifine": "required"
 	},	
 	{
-		"id": "melonGolemMask",
-		"label": "Melon Golem Mask",
-		"description": "Rename Carved Pumpkin to Carved Melon or Angry Carved Melon",
-		"category": "pumpkinHats",
-		"optifine": "required"
+		"id": "japaneseLanterns",
+		"label": "Japanese Lanterns",
+		"description": "Replaces both Lantners to be Japanese styled.",
+		"category": "misc",
+		"incompatibilities": ["dungeonsSoulLantern", "chineseLanterns"]
 	},	
 	{
 		"id": "archIllagerCrown",
@@ -406,12 +407,40 @@
 		"label": "Glow Pickler",
 		"description": "Changes the Glow Squid to appear like a Sea Pickle.",
 		"category": "snapshot",
-		"incompatibilities": ["makeupGlowsquid", "glowyGlowsquid", "prismarineGlowsquid"]
+		"incompatibilities": ["makeupGlowsquid", "glowyGlowsquid", "prismarineGlowsquid", "glowmethystSquid"]
 	},	
 	{
 		"id": "earthJournal",
 		"label": "Earth Journal Items",
 		"description": "Replaces all books with the journal from Minecraft: Earth",
 		"category": "misc"
+	},	
+	{
+		"id": "chineseLanterns",
+		"label": "Chinese Lanterns",
+		"description": "Replaces both Lantners to be Chinese styled.",
+		"category": "misc",
+		"incompatibilities": ["dungeonsSoulLantern", "japaneseLanterns]
+	},	
+	{
+		"id": "glowmethystSquid",
+		"label": "Glowmethyst Squid",
+		"description": "Changes the Glow Squid to appear like Amethyst.",
+		"category": "snapshot",
+		"incompatibilities": ["makeupGlowsquid", "glowyGlowsquid", "prismarineGlowsquid", "glowPickler"]
+	},	
+	{
+		"id": "mossCreeper",
+		"label": "Moss Creepers",
+		"description": "Retextures the Creeper to be covered with moss",
+		"category": "mobs",
+		"incompatibilities": ["uwuCreepers", "beeCreeper", "beeCreeperDungeons"]
+	},	
+	{
+		"id": "pinkFoxes",
+		"label": "Pink Foxes",
+		"description": "Retextures both fox types to be a little bit more pink.",
+		"category": "basaltColumns",
+		"incompatibilities": ["basaltBuddies"]
 	}
 ]
