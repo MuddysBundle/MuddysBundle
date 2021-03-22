@@ -1,5 +1,4 @@
-[
-	{
+[{
 		"id": "beeCreeper",
 		"label": "Bee Creeper",
 		"description": "Any Creeper spawned in flower forests, oak or birch forests will become Bee Creepers!",
@@ -12,14 +11,14 @@
 		"label": "Satanic Trident",
 		"description": "Recolors the Trident with colors straight from hell!",
 		"category": "gear",
-		"incompatibilities": ["amethystTrident","diamondTrident"]
+		"incompatibilities": ["amethystTrident", "diamondTrident"]
 	},
 	{
 		"id": "diamondTrident",
 		"label": "Diamond Trident",
 		"description": "Recolors the Trident to be themed with the rest of the Diamond Tools.",
 		"category": "gear",
-		"incompatibilities": ["amethystTrident","satanicTrident"]
+		"incompatibilities": ["amethystTrident", "satanicTrident"]
 	},
 	{
 		"id": "steverStand",
@@ -40,7 +39,7 @@
 		"label": "Death Capped",
 		"description": "Changes everything Brown Mushroom to Death Cap Mushroom.",
 		"category": "dungeons",
-		"incompatibilities": ["picowle", "picowleMicro", "picowleMicroPlus","cowStyledMoobloom","moobloomStyledCows"]
+		"incompatibilities": ["picowle", "picowleMicro", "picowleMicroPlus", "cowStyledMoobloom", "moobloomStyledCows"]
 	},
 	{
 		"id": "netheriteShields",
@@ -75,21 +74,21 @@
 		"label": "Emeraldite",
 		"description": "Netherite Tools become Emerald themed.",
 		"category": "gear",
-		"incompatibilities": ["honeyPackNetherite","basaltite","sunGrace", "heartSwords"]
+		"incompatibilities": ["honeyPackNetherite", "basaltite", "sunGrace", "heartSwords"]
 	},
 	{
 		"id": "sunGrace",
 		"label": "Sun's Grace",
 		"description": "Netherite Tools become Sun's Grace themed",
 		"category": "gear",
-		"incompatibilities": ["honeyPackNetherite","emeraldite","basaltite"]
+		"incompatibilities": ["honeyPackNetherite", "emeraldite", "basaltite"]
 	},
 	{
 		"id": "honeyNetheriteGear",
 		"label": "Honey Gear - Netherite",
 		"description": "Netherite Tools become Sun's Grace themed",
 		"category": "gear",
-		"incompatibilities": ["sunGrace","basaltite","emeraldite"]
+		"incompatibilities": ["sunGrace", "basaltite", "emeraldite"]
 	},
 	{
 		"id": "honeyDiamondGear",
@@ -111,7 +110,7 @@
 		"description": "Cows spawning in certain biomes will become Glowing Pickle Cows",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["picowleMicro","picowleMicroPlus","cowStyledMoobloom","deathCapped","moobloomStyledCows"]
+		"incompatibilities": ["picowleMicro", "picowleMicroPlus", "cowStyledMoobloom", "deathCapped", "moobloomStyledCows"]
 	},
 	{
 		"id": "picowleMicro",
@@ -119,7 +118,7 @@
 		"description": "Cows spawning in certain biomes will become Glowing Pickle Cows, with smaller pickles.",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["picowle","picowleMicroPlus","cowStyledMoobloom","deathCapped","moobloomStyledCows"]
+		"incompatibilities": ["picowle", "picowleMicroPlus", "cowStyledMoobloom", "deathCapped", "moobloomStyledCows"]
 	},
 	{
 		"id": "picowleMicroPlus",
@@ -127,7 +126,7 @@
 		"description": "Cows spawning in certain biomes will become Glowing Pickle Cows, with REAL SMALL pickles.",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["picowleMicro","picowle","cowStyledMoobloom","deathCapped","moobloomStyledCows"]
+		"incompatibilities": ["picowleMicro", "picowle", "cowStyledMoobloom", "deathCapped", "moobloomStyledCows"]
 	},
 	{
 		"id": "uwuCreepers",
@@ -195,21 +194,21 @@
 		"label": "Redstone Sculk Sensor",
 		"description": "Changes the Sculk Sensor to be Redstone themed.",
 		"category": "snapshot",
-		"incompatibilities": ["redstoneLampSculkSensor","cakeLie"]	
+		"incompatibilities": ["redstoneLampSculkSensor", "cakeLie"]
 	},
 	{
 		"id": "redstoneLampSculkSensor",
 		"label": "Redstone Lamp Sculk Sensor",
 		"description": "Changes the Sculk Sensor to be Redstone themed, but with a lamp instead of torches.",
 		"category": "snapshot",
-		"incompatibilities": ["redstoneSculkSensor","cakeLie"]	
+		"incompatibilities": ["redstoneSculkSensor", "cakeLie"]
 	},
 	{
 		"id": "cakeLie",
 		"label": "Cake is a Lie",
 		"description": "Changes the Sculk Sensor to appear like a cake, a fake one!",
 		"category": "snapshot",
-		"incompatibilities": ["redstoneSculkSensor","redstoneLampSculkSensor"]	
+		"incompatibilities": ["redstoneSculkSensor", "redstoneLampSculkSensor"]
 	},
 	{
 		"id": "hailstone",
@@ -228,8 +227,8 @@
 		"label": "Basalt Buddies",
 		"description": "Any fox or rabbit who spawn in Basalt Deltas will become EVIL basalt mobs!",
 		"category": "basaltColumns",
-		"optifine": "required"
-		"incompatibilities": ["pinkFoxes"]	
+		"optifine": "required",
+		"incompatibilities": ["pinkFoxes"]
 	},
 	{
 		"id": "boldMuddyAxolotl",
@@ -243,7 +242,7 @@
 		"label": "Basalt Elytra",
 		"description": "Changes the Elytra to appear like Basalt",
 		"category": "basaltColumns",
-		"incompatibilities": ["netheriteElytra"]	
+		"incompatibilities": ["netheriteElytra"]
 	},
 	{
 		"id": "oinkers",
@@ -263,21 +262,21 @@
 		"label": "Makeup Glow Squid",
 		"description": "Removes a weird glow spot on the Glow Squid's Face.",
 		"category": "snapshot",
-		"incompatibilities": ["glowyGlowsquid","prismarineGlowsquid", "glowPickler", "glowmethystSquid"]	
+		"incompatibilities": ["glowyGlowsquid", "prismarineGlowsquid", "glowPickler", "glowmethystSquid"]
 	},
 	{
 		"id": "glowyGlowsquid",
 		"label": "Glowy Glow Squid",
 		"description": "Makes the Glow Squid even more glowier!",
 		"category": "snapshot",
-		"incompatibilities": ["makeupGlowsquid","prismarineGlowsquid", "glowPickler", "glowmethystSquid"]	
+		"incompatibilities": ["makeupGlowsquid", "prismarineGlowsquid", "glowPickler", "glowmethystSquid"]
 	},
 	{
 		"id": "prismarineGlowsquid",
 		"label": "Prismarine Glow Squid",
 		"description": "Makes the Glow Squid look prismarine like.",
 		"category": "snapshot",
-		"incompatibilities": ["glowyGlowsquid","makeupGlowsquid", "glowPickler", "glowmethystSquid"]	
+		"incompatibilities": ["glowyGlowsquid", "makeupGlowsquid", "glowPickler", "glowmethystSquid"]
 	},
 	{
 		"id": "corruptedBeacon",
@@ -290,7 +289,7 @@
 		"label": "Amethyst Trident",
 		"description": "Recolors the Trident to be Amethyst Themed, with sounds too!",
 		"category": "gear",
-		"incompatibilities": ["satanicTrident","diamondTrident"]
+		"incompatibilities": ["satanicTrident", "diamondTrident"]
 	},
 	{
 		"id": "buzzyNest",
@@ -318,7 +317,7 @@
 		"description": "Changes the all Swords to a Heart on a Stick",
 		"category": "gear",
 		"incompatibilities": ["sunGrace", "honeyDiamondGear", "honeyNetheriteGear", "heartSwords"]
-	},	
+	},
 	{
 		"id": "beeCreeperDungeons",
 		"label": "Dungeons Bee Creeper",
@@ -326,50 +325,50 @@
 		"category": "mobs",
 		"optifine": "required",
 		"incompatibilities": ["uwuCreepers", "beeCreeper", "mossCreeper"]
-	},	
+	},
 	{
 		"id": "cowStyledMoobloom",
 		"label": "Cow Styled Moobloom",
 		"description": "Any Cow spawned in flower forests or sunflower plains will become a Moobloom, but with the style of the vanilla cow",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["picowle", "picowleMicro", "picowleMicroPlus","deathCapped","moobloomStyledCows"]
-	},	
+		"incompatibilities": ["picowle", "picowleMicro", "picowleMicroPlus", "deathCapped", "moobloomStyledCows"]
+	},
 	{
 		"id": "earthHoods",
 		"label": "Minecraft: Earth themed Hoods.",
 		"description": "Moobloom, Bold Rabbit, Cluckshroom, Horned Sheep, Muddy Pig and Earth Hero Hoods.",
 		"category": "pumpkinHats",
 		"optifine": "required"
-	},	
+	},
 	{
 		"id": "earthJournalHat",
 		"label": "Minecraft: Earth Journal Book",
 		"description": "Rename Carved Pumpkin to Earth Journal.",
 		"category": "pumpkinHats",
 		"optifine": "required"
-	},	
+	},
 	{
 		"id": "boldMuddyHood",
 		"label": "Bold Muddy Hood",
 		"description": "Rename Carved Pumpkin to Bold Muddy Hood",
 		"category": "basaltColumns",
 		"optifine": "required"
-	},	
+	},
 	{
 		"id": "beeCreeperHood",
 		"label": "Bee Creeper Hood",
 		"description": "Rename Carved Pumpkin to Bee Creeper Hood",
 		"category": "pumpkinHats",
 		"optifine": "required"
-	},	
+	},
 	{
 		"id": "japaneseLanterns",
 		"label": "Japanese Lanterns",
 		"description": "Replaces both Lantners to be Japanese styled.",
 		"category": "misc",
 		"incompatibilities": ["dungeonsSoulLantern", "chineseLanterns"]
-	},	
+	},
 	{
 		"id": "archIllagerCrown",
 		"label": "Arch Illager Crown",
@@ -382,60 +381,60 @@
 		"label": "Moobloom Styled Cows",
 		"description": "Changes every cow to appear with the Moobloom design.",
 		"category": "tweaks",
-		"incompatibilities": ["picowle", "picowleMicro", "picowleMicroPlus","cowStyledMoobloom","deathCapped"]
-	},	
+		"incompatibilities": ["picowle", "picowleMicro", "picowleMicroPlus", "cowStyledMoobloom", "deathCapped"]
+	},
 	{
 		"id": "corruptedPumpkin",
 		"label": "Corrupted Pumpkin",
 		"description": "Jack O Lanterns become Corrupted Pumpkins, but you can also rename a Carved Pumpkin to Corrupted Pumpkin.",
 		"category": "dungeons"
-	},	
+	},
 	{
 		"id": "dungeonsSoulLantern",
 		"label": "Dungeons Soul Lantern",
 		"description": "Soul Lanterns are changed to appear like the Artifact from Minecraft: Dungeons.",
 		"category": "dungeons"
-	},	
+	},
 	{
 		"id": "lushCampfire",
 		"label": "Lush Campfire",
 		"description": "Spore Blossoms are changed to appear like upside down green flamed campfires.",
 		"category": "snapshot"
-	},	
+	},
 	{
 		"id": "glowPickler",
 		"label": "Glow Pickler",
 		"description": "Changes the Glow Squid to appear like a Sea Pickle.",
 		"category": "snapshot",
 		"incompatibilities": ["makeupGlowsquid", "glowyGlowsquid", "prismarineGlowsquid", "glowmethystSquid"]
-	},	
+	},
 	{
 		"id": "earthJournal",
 		"label": "Earth Journal Items",
 		"description": "Replaces all books with the journal from Minecraft: Earth",
 		"category": "misc"
-	},	
+	},
 	{
 		"id": "chineseLanterns",
 		"label": "Chinese Lanterns",
 		"description": "Replaces both Lantners to be Chinese styled.",
 		"category": "misc",
-		"incompatibilities": ["dungeonsSoulLantern", "japaneseLanterns]
-	},	
+		"incompatibilities": ["dungeonsSoulLantern", "japaneseLanterns"]
+	},
 	{
 		"id": "glowmethystSquid",
 		"label": "Glowmethyst Squid",
 		"description": "Changes the Glow Squid to appear like Amethyst.",
 		"category": "snapshot",
 		"incompatibilities": ["makeupGlowsquid", "glowyGlowsquid", "prismarineGlowsquid", "glowPickler"]
-	},	
+	},
 	{
 		"id": "mossCreeper",
 		"label": "Moss Creepers",
 		"description": "Retextures the Creeper to be covered with moss",
 		"category": "mobs",
 		"incompatibilities": ["uwuCreepers", "beeCreeper", "beeCreeperDungeons"]
-	},	
+	},
 	{
 		"id": "pinkFoxes",
 		"label": "Pink Foxes",
