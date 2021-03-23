@@ -196,7 +196,6 @@ span.description {
 .selected {
 	background-color: var(--emphasis-background);
 	color: var(--font-color);
-	border: 5px solid #20191E;
 }
 
 .not-selectable {
