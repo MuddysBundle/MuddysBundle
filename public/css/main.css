@@ -154,6 +154,10 @@ span.description {
   	box-shadow:
     inset 4px 4px 0 0px #d6d6d6,
     inset -4px -4px 0 0px #585658;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */   
 }
 
 .selectable {
