@@ -14,7 +14,6 @@
     <meta property="og:type" content="website">
     <meta property="og:description" content="An open-source resource pack picker made for Minecraft.">
     <meta property="og:image" content="https://www.littleimprovements-custom.tk/logo/site-logo.png">
-    <script src=/js/theme.js></script>
     <script src=/js/desktopRedirect.js></script>
     <script>redirect("/");platform="mobile"</script>
     <link rel="stylesheet" href="/css/color.css">
@@ -23,7 +22,7 @@
 </head>
 <body>
     <div class="title middle-div">
-        <img src="/logo/site-logo.png" height="150px" alt="Muddy's Bundle">
+        <img src="/logo/site-logo.png" height="150px" alt="Muddy's Bundle" id="site-logo">
     </div>
     <hr>
     <ul class="navbar">
@@ -37,4 +36,5 @@
     <div class="toast success-toast invisible" id="download-toast">Your pack is beginning to download.</div>
     <div class="toast fail-toast invisible" id="fail-toast">There was an error downloading your pack. Please reload the page and try again. If the issue persists, please <a href="https://discord.gg/bNcZjFe">get in touch</a>.</div>
     <script src=/js/index.js></script>
+    <script src=/js/global.js></script>
 </body>

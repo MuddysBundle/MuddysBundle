@@ -13,7 +13,6 @@
     <meta property="og:type" content="website">
     <meta property="og:description" content="An open-source resource pack picker made for Minecraft.">
     <meta property="og:image" content="https://www.littleimprovements-custom.tk/logo/site-logo.png">
-    <script src=/js/theme.js></script>
     <script src=/js/mobileRedirect.js></script>
     <script>redirect("/mobile");platform="desktop"</script>
     <script src="https://kit.fontawesome.com/b00b1bfb20.js" crossorigin="anonymous"></script>
@@ -23,7 +22,7 @@
 </head>
 <body>
     <div class="clearfix float-my-children title-div">
-        <img src="/logo/site-logo.png" height="150px" alt="Muddy's Bundle">
+        <img src="/logo/site-logo.png" height="150px" alt="Muddy's Bundle" id="site-logo">
         <div class="middle-div">
             <span class="description">Click to select the tweaks you want to use, and click again to unselect. Hover over an image to see more info.</span>
         </div>
@@ -50,4 +49,5 @@
     <div id="pack-selector-container"></div> <!-- the script will add elements to this -->
     <script src=/js/index.js></script>
     <script src="js/social.js"></script>
+    <script src=/js/global.js></script>
 </body>
