@@ -441,5 +441,19 @@
 		"description": "Retextures both fox types to be a little bit more pink.",
 		"category": "basaltColumns",
 		"incompatibilities": ["basaltBuddies"]
+	},
+	{
+		"id": "oinkersArmor",
+		"label": "Oinkers Maclin Armor",
+		"description": "Retextures Netherite Armor to Oinkers Maclin themed Armor.",
+		"category": "basaltColumns",
+		"incompatibilities": ["basaltite", "emeraldite"]
+	},
+	{
+		"id": "bagieZombies",
+		"label": "Bagie Zombies",
+		"description": "Changes the terrifying zombie to the beautiful bagie!",
+		"category": "basaltColumns",
+
 	}
 ]
