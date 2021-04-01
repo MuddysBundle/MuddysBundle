@@ -11,14 +11,14 @@
 		"label": "Satanic Trident",
 		"description": "Recolors the Trident with colors straight from hell!",
 		"category": "gear",
-		"incompatibilities": ["amethystTrident", "diamondTrident"]
+		"incompatibilities": ["amethystTrident", "diamondTrident", "whisperingTrident"]
 	},
 	{
 		"id": "diamondTrident",
 		"label": "Diamond Trident",
 		"description": "Recolors the Trident to be themed with the rest of the Diamond Tools.",
 		"category": "gear",
-		"incompatibilities": ["amethystTrident", "satanicTrident"]
+		"incompatibilities": ["amethystTrident", "satanicTrident", "whisperingTrident]
 	},
 	{
 		"id": "steverStand",
@@ -289,7 +289,7 @@
 		"label": "Amethyst Trident",
 		"description": "Recolors the Trident to be Amethyst Themed, with sounds too!",
 		"category": "gear",
-		"incompatibilities": ["satanicTrident", "diamondTrident"]
+		"incompatibilities": ["satanicTrident", "diamondTrident", "whisperingTrident"]
 	},
 	{
 		"id": "buzzyNest",
@@ -373,7 +373,7 @@
 		"id": "archIllagerCrown",
 		"label": "Arch Illager Crown",
 		"description": "Rename Carved Pumpkin to Arch Illager Crown",
-		"category": "dungeons",
+		"category": "pumpkinHats",
 		"optifine": "required"
 	},
 	{
@@ -387,7 +387,8 @@
 		"id": "corruptedPumpkin",
 		"label": "Corrupted Pumpkin",
 		"description": "Jack O Lanterns become Corrupted Pumpkins, but you can also rename a Carved Pumpkin to Corrupted Pumpkin.",
-		"category": "dungeons"
+		"category": "pumpkinHats",
+		"optifine": "required"
 	},
 	{
 		"id": "dungeonsSoulLantern",
@@ -453,7 +454,22 @@
 		"id": "bagieZombies",
 		"label": "Bagie Zombies",
 		"description": "Changes the terrifying zombie to the beautiful bagie!",
-		"category": "basaltColumns"
+		"category": "basaltColumns",
+		"optifine": "required"
+	},
+	{
+		"id": "whisperingTrident",
+		"label": "Whispering Trident",
+		"description": "Recolors the Trident to appear like the Whispering Spear from Minecraft: Dungeons",
+		"category": "dungeons",
+		"incompatibilities": ["amethystTrident", "diamondTrident", "satanicTrident"]
+	},
+	{
+		"id": "muddyRabbitEars",
+		"label": "Muddy Rabbit Ears",
+		"description": "Rename a Carved Pumpkin to Muddy Rabbit Ears",
+		"category": "pumpkinHats",
+		"optifine": "required"
 
 	}
 ]
