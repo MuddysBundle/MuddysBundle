@@ -453,7 +453,7 @@
 		"id": "bagieZombies",
 		"label": "Bagie Zombies",
 		"description": "Changes the terrifying zombie to the beautiful bagie!",
-		"category": "basaltColumns",
+		"category": "basaltColumns"
 
 	}
 ]
