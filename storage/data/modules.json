@@ -18,7 +18,7 @@
 		"label": "Diamond Trident",
 		"description": "Recolors the Trident to be themed with the rest of the Diamond Tools.",
 		"category": "gear",
-		"incompatibilities": ["amethystTrident", "satanicTrident", "whisperingTrident]
+		"incompatibilities": ["amethystTrident", "satanicTrident", "whisperingTrident"]
 	},
 	{
 		"id": "steverStand",
