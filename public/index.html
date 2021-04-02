@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta name="theme-color" content="#e90700">
     <meta name="title" content="Muddy's Bundle">
     <meta name="description" content="An open-source resource pack picker made for Minecraft.">
@@ -14,36 +15,46 @@
     <meta property="og:description" content="An open-source resource pack picker made for Minecraft.">
     <meta property="og:image" content="https://www.littleimprovements-custom.tk/logo/site-logo.png">
     <script src=/js/mobileRedirect.js></script>
-    <script>redirect("/mobile");platform="desktop"</script>
+    <script>redirect("/mobile"); platform = "desktop"</script>
     <script src="https://kit.fontawesome.com/b00b1bfb20.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/color.css">
     <link rel="stylesheet" href="/css/main.css">
     <title>Muddy's Bundle</title>
 </head>
+
 <body>
     <div class="clearfix float-my-children title-div">
         <img src="/logo/site-logo.png" height="150px" alt="Muddy's Bundle" id="site-logo">
         <div class="middle-div">
-            <span class="description">Click to select the tweaks you want to use, and click again to unselect. Hover over an image to see more info.</span>
+            <span class="description">Click to select the tweaks you want to use, and click again to unselect. Hover
+                over an image to see more info.</span>
         </div>
-    </div>         
+    </div>
     <hr>
     <div class="sidebar">
         <ul class="navbar">
-            <li class="primary-navbar-item"><a class="navbar-link primary-navbar-link" onclick="downloadPack()">Download</a></li>
-            <li class="secondary-navbar-item"><a class="navbar-link secondary-navbar-link" href="/credits">Credits</a></li>
+            <li class="primary-navbar-item"><a class="navbar-link primary-navbar-link"
+                    onclick="downloadPack()">Download</a></li>
+            <li class="secondary-navbar-item"><a class="navbar-link secondary-navbar-link" href="/credits">Credits</a>
+            </li>
             <li id="social-navbar-item"></li>
+            <ul class="preview-container">
+                <li id="preview-section">
+                    <img id="emptyPreview" src="preview/emptyPreview.png">
+                </li>
+            </ul>
         </ul>
         <ul class="upload-container">
             <li class="upload-title">Upload a pack</li>
             <li>
                 <form onsubmit="return false" id="uploadForm" class="upload-form">
-                    Upload a pack you have previously downloaded to edit your selection, without having to manually select everything again.<br><br>
-                    <input id="file" type="file" name="uploadedPack" multiple="multiple"/>
-                    <input type="submit" value="Upload" class="upload-button" onclick="send()"/>
+                    Upload a pack you have previously downloaded to edit your selection, without having to manually
+                    select everything again.<br><br>
+                    <input id="file" type="file" name="uploadedPack" multiple="multiple" />
+                    <input type="submit" value="Upload" class="upload-button" onclick="send()" />
                 </form>
             </li>
-            
+
         </ul>
     </div>
     <div id="pack-selector-container"></div> <!-- the script will add elements to this -->

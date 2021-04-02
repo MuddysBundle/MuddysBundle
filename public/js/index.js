@@ -46,10 +46,14 @@ function toggleSelected(id) {
 function mouseOver() {
 	document.getElementById(this.id+"Img").classList.add("invisible")
 	document.getElementById(this.id+"Desc").classList.remove("invisible")
+	document.getElementById(this.id + "Preview").classList.remove("invisible")
+	document.getElementById("emptyPreview").classList.add("invisible")
 }
 function mouseOut() {
 	document.getElementById(this.id+"Img").classList.remove("invisible")
 	document.getElementById(this.id+"Desc").classList.add("invisible")
+	document.getElementById(this.id + "Preview").classList.add("invisible")
+	document.getElementById("emptyPreview").classList.remove("invisible")
 }
 
 // HANDLE THE USER PRESSING THE DOWNLOAD BUTTON
@@ -142,6 +146,16 @@ function createModuleSelector(data) {
 	desc.setAttribute("id", data.id+"Desc")
 	desc.appendChild(document.createTextNode(data.description))
 	div.appendChild(desc)
+	
+	let previewType = data.previewType
+	if (previewType == undefined) previewType = "png"
+	const preview = document.createElement("img")
+	preview.setAttribute("class", "pack-preview invisible")
+	preview.setAttribute("src", `preview/${data.id}.${previewType}`)
+	preview.setAttribute("id", data.id + "Preview")
+	preview.setAttribute("alt", data.label)
+	div.appendChild(preview)
+	document.getElementById("preview-section").appendChild(preview)
 
 	if (platform=="desktop") {
 		div.addEventListener("mouseover", mouseOver)
