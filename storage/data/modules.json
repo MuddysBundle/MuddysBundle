@@ -451,13 +451,6 @@
 		"incompatibilities": ["basaltite", "emeraldite"]
 	},
 	{
-		"id": "bagieZombies",
-		"label": "Bagie Zombies",
-		"description": "Changes the terrifying zombie to the beautiful bagie!",
-		"category": "basaltColumns",
-		"optifine": "required"
-	},
-	{
 		"id": "whisperingTrident",
 		"label": "Whispering Trident",
 		"description": "Recolors the Trident to appear like the Whispering Spear from Minecraft: Dungeons",
