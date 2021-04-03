@@ -113,22 +113,6 @@
 		"incompatibilities": ["picowleMicro", "picowleMicroPlus", "cowStyledMoobloom", "deathCapped", "moobloomStyledCows"]
 	},
 	{
-		"id": "picowleMicro",
-		"label": "Picowle Micro",
-		"description": "Cows spawning in certain biomes will become Glowing Pickle Cows, with smaller pickles.",
-		"category": "mobs",
-		"optifine": "required",
-		"incompatibilities": ["picowle", "picowleMicroPlus", "cowStyledMoobloom", "deathCapped", "moobloomStyledCows"]
-	},
-	{
-		"id": "picowleMicroPlus",
-		"label": "Picowle Micro+",
-		"description": "Cows spawning in certain biomes will become Glowing Pickle Cows, with REAL SMALL pickles.",
-		"category": "mobs",
-		"optifine": "required",
-		"incompatibilities": ["picowleMicro", "picowle", "cowStyledMoobloom", "deathCapped", "moobloomStyledCows"]
-	},
-	{
 		"id": "uwuCreepers",
 		"label": "UwU Creepers",
 		"description": "As if those creeplings weren't creepy enough... prepare to get spooked!",
