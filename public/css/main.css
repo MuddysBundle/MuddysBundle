@@ -198,6 +198,8 @@ span.description {
 .selected {
 	background-color: var(--emphasis-background);
 	color: var(--font-color);
+	/* background-color: #160c02af; Optional muddy color*/
+	border-color: #be8a21;
 }
 
 .not-selectable {
@@ -290,7 +292,6 @@ a, a:hover, a:active, a:visited {
 #preview-section {
 	display: flex;
 	justify-content: center;
-	
 }
 
 .preview-title {
