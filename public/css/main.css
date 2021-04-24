@@ -198,7 +198,7 @@ span.description {
 .selected {
 	background-color: var(--emphasis-background);
 	color: var(--font-color);
-	/* background-color: #160c02af; Optional muddy color*/
+	background-color: #160c02af;
 	border-color: #be8a21;
 }
 
