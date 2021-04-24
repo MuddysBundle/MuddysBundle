@@ -1,6 +1,6 @@
-console.log(document.getElementById("site-logo"))
+console.log(document.getElementById("nose-map"))
 
-document.getElementById('site-logo').onclick = () => {
+document.getElementById('nose-map').onclick = () => {
 	const audio = new Audio('/honk.mp3')
 	audio.play()
 }
