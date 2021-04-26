@@ -293,7 +293,8 @@ a, a:hover, a:active, a:visited {
 	margin-bottom: 5px;
 }
 
-#preview-section {
+
+.preview-container>li {
 	display: flex;
 	justify-content: center;
 }
@@ -302,4 +303,22 @@ a, a:hover, a:active, a:visited {
 	font-size: large;
 	background-color: var(--emphasis-background);
 	text-align: center;
+}
+
+.pack-credit-icon {
+	position:absolute;
+    left: -20px; 
+    top: -20px; 
+	height: 50px;
+	width: 50px;
+}
+
+#preview-section {
+	box-shadow: inset 4px 4px 0 0px #d6d6d6, inset -4px -4px 0 0px #585658;
+    line-height: 0;
+}
+
+.pack-preview {
+	margin: 5px;
+	line-height: 0;
 }
