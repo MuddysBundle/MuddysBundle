@@ -263,6 +263,10 @@ a, a:hover, a:active, a:visited {
 	background-color: var(--fail-background);
 }
 
+.incompatible-toast {
+	background-color: var(--fail-background);
+}
+
 .invisible {
 	display: none;
 }

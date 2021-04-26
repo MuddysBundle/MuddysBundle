@@ -3,35 +3,45 @@ let selectedModules = []
 function toggleSelected(id) {
 	const theDiv = document.getElementById(id)
 	var action = ""
-	if (theDiv.classList.contains("unselected")&&theDiv.classList.contains("selectable")) action="adding"
-	else if (theDiv.classList.contains("selected")&&theDiv.classList.contains("selectable")) action="removing"
-	else if (theDiv.classList.contains("unselected")&&theDiv.classList.contains("not-selectable")) action="failToAdd"
-	if (action=="adding") {
+	if (theDiv.classList.contains("unselected") && theDiv.classList.contains("selectable")) action = "adding"
+	else if (theDiv.classList.contains("selected") && theDiv.classList.contains("selectable")) action = "removing"
+	else if (theDiv.classList.contains("unselected") && theDiv.classList.contains("not-selectable")) action = "failToAdd"
+	if (action == "adding") {
 		// the box is currently unselected and selectable; select it
 		theDiv.classList.remove("unselected")
 		theDiv.classList.add("selected")
 		selectedModules.push(id)
-	} else if (action=="removing") {
+	} else if (action == "removing") {
 		// the box is currently selected; unselect it
 		theDiv.classList.remove("selected")
 		theDiv.classList.add("unselected")
 		selectedModules.pop(id)
-	} else if (action=="failToAdd") {
-		const tryData = modulesJSON[modulesJSON.map(i=>i.id).indexOf(theDiv.getAttribute("id"))] // the data of the module that could not be selected
+	} else if (action == "failToAdd") {
+		const tryData = modulesJSON[modulesJSON.map(i => i.id).indexOf(theDiv.getAttribute("id"))] // the data of the module that could not be selected
 		for (i of tryData.incompatibilities) {
 			if (selectedModules.includes(i)) {
-				const failData = modulesJSON[modulesJSON.map(i=>i.id).indexOf(i)] // the data of the module that was preventing it from being selected
-				alert (`You cannot select the pack ${tryData.label} because you have the incompatible pack ${failData.label} selected.\nDeselect the incompatible pack to use this pack.`)
+				const failData = modulesJSON[modulesJSON.map(i => i.id).indexOf(i)] // the data of the module that was preventing it from being selected, from lic - leaving incase needed later
+				// create the fail toast
+				const toast = document.createElement("div")
+				toast.setAttribute("class", "toast incompatible-toast")
+				toast.setAttribute("id", "incompatible-toast")
+				toast.appendChild(document.createTextNode("Incompatible pack selected"))
+				document.body.appendChild(toast)
+				
+				setTimeout(removeIncompatibleToast, 2000)
+				function removeIncompatibleToast() {
+					document.getElementById("incompatible-toast").remove()
+				}
 			}
 		}
 	}
-	const incompatibilities = modulesJSON[modulesJSON.map(x=>x.id).indexOf(id)].incompatibilities
-	if (incompatibilities!=undefined) {
-		if (action=="adding") for (i of incompatibilities) {
+	const incompatibilities = modulesJSON[modulesJSON.map(x => x.id).indexOf(id)].incompatibilities
+	if (incompatibilities != undefined) {
+		if (action == "adding") for (i of incompatibilities) {
 			document.getElementById(i).classList.remove("selectable") // remove the selectable class from the element
 			document.getElementById(i).classList.add("not-selectable") // add the not-selectable class to the element
-		} else if (action=="removing") for (i of incompatibilities) {
-			const childIncompatibilities = modulesJSON[modulesJSON.map(x=>x.id).indexOf(i)].incompatibilities
+		} else if (action == "removing") for (i of incompatibilities) {
+			const childIncompatibilities = modulesJSON[modulesJSON.map(x => x.id).indexOf(i)].incompatibilities
 			for (j of childIncompatibilities) {
 				if (!selectedModules.includes(j)) {
 					document.getElementById(i).classList.add("selectable") // add the selectable class to the element
@@ -44,23 +54,23 @@ function toggleSelected(id) {
 
 // HIDE THE IMAGE AND SHOW THE DESCRIPTION WHEN THE USER HOVERS OVER A SELECTOR
 function mouseOver() {
-	document.getElementById(this.id+"Img").classList.add("invisible")
-	document.getElementById(this.id+"Desc").classList.remove("invisible")
+	document.getElementById(this.id + "Img").classList.add("invisible")
+	document.getElementById(this.id + "Desc").classList.remove("invisible")
 	document.getElementById(this.id + "Preview").classList.remove("invisible")
 	document.getElementById("emptyPreview").classList.add("invisible")
 }
 function mouseOut() {
-	document.getElementById(this.id+"Img").classList.remove("invisible")
-	document.getElementById(this.id+"Desc").classList.add("invisible")
+	document.getElementById(this.id + "Img").classList.remove("invisible")
+	document.getElementById(this.id + "Desc").classList.add("invisible")
 	document.getElementById(this.id + "Preview").classList.add("invisible")
 	document.getElementById("emptyPreview").classList.remove("invisible")
 }
 
 // HANDLE THE USER PRESSING THE DOWNLOAD BUTTON
 function downloadPack() {
-	
+
 	// stop the user downloading a pack with nothing selected
-	if (selectedModules.length==0) {
+	if (selectedModules.length == 0) {
 		// let the user know they can't download a pack with no modules
 		alert("You can't download a pack with nothing selected.")
 		// return, so the post request is not sent
@@ -68,7 +78,7 @@ function downloadPack() {
 	}
 
 	// warn the user if they are downloading a pack on mobile
-	if (platform=="mobile") {
+	if (platform == "mobile") {
 		// let the user know Custom is only for Java Edition
 		const x = confirm("We noticed you're on mobile. Muddy's Bundle is only available for the Java Edition of Minecraft, on PC.\nAre you sure you want to continue and download a pack on mobile?")
 		// return, so the request is not sent, if the user cancelled
@@ -82,13 +92,13 @@ function downloadPack() {
 	toast.appendChild(document.createTextNode("Your pack is beginning to download."))
 	document.body.appendChild(toast)
 
-	const readablePlatform = platform.charAt(0).toUpperCase()+platform.slice(1)
+	const readablePlatform = platform.charAt(0).toUpperCase() + platform.slice(1)
 
 	// send post request for pack link
 	const request = new XMLHttpRequest()
-	request.open("POST","/download",false)
-	request.setRequestHeader("Content-Type","application/json")
-	request.send(JSON.stringify({"modules":selectedModules,"platform":readablePlatform}))
+	request.open("POST", "/download", false)
+	request.setRequestHeader("Content-Type", "application/json")
+	request.send(JSON.stringify({ "modules": selectedModules, "platform": readablePlatform }))
 
 	// show fail toast if the response was "error"
 	if (request.response == "error") {
@@ -120,33 +130,33 @@ function createModuleSelector(data) {
 	if (data.hidden) return // stop if the module should be hidden
 
 	const div = document.createElement("div")
-	div.setAttribute("class","grid-item selection-box selectable unselected pack-height")
+	div.setAttribute("class", "grid-item selection-box selectable unselected pack-height")
 	div.setAttribute("onclick", `javascript: toggleSelected('${data.id}')`)
 	div.setAttribute("id", data.id)
 	document.getElementById(data.category).appendChild(div)
 
 	const label = document.createElement("p")
 	label.setAttribute("class", "pack-label")
-	label.setAttribute("id", data.id+"Label")
+	label.setAttribute("id", data.id + "Label")
 	label.appendChild(document.createTextNode(data.label))
 	div.appendChild(label)
 
 	let iconType = data.iconType
-	if (iconType==undefined) iconType = "png"
+	if (iconType == undefined) iconType = "png"
 	const icon = document.createElement("img")
-	icon.setAttribute("class","pack-icon")
-	icon.setAttribute("src",`icons/${data.id}.${iconType}`)
-	icon.setAttribute("id",data.id+"Img")
-	icon.setAttribute("alt",data.label)
+	icon.setAttribute("class", "pack-icon")
+	icon.setAttribute("src", `icons/${data.id}.${iconType}`)
+	icon.setAttribute("id", data.id + "Img")
+	icon.setAttribute("alt", data.label)
 	div.appendChild(icon)
 
 	const desc = document.createElement("p")
-	if (platform=="desktop") desc.setAttribute("class","pack-desc invisible")
-	else desc.setAttribute("class","pack-desc")
-	desc.setAttribute("id", data.id+"Desc")
+	if (platform == "desktop") desc.setAttribute("class", "pack-desc invisible")
+	else desc.setAttribute("class", "pack-desc")
+	desc.setAttribute("id", data.id + "Desc")
 	desc.appendChild(document.createTextNode(data.description))
 	div.appendChild(desc)
-	
+
 	let previewType = data.previewType
 	if (previewType == undefined) previewType = "png"
 	const preview = document.createElement("img")
@@ -157,7 +167,7 @@ function createModuleSelector(data) {
 	div.appendChild(preview)
 	document.getElementById("preview-section").appendChild(preview)
 
-	if (platform=="desktop") {
+	if (platform == "desktop") {
 		div.addEventListener("mouseover", mouseOver)
 		div.addEventListener("mouseout", mouseOut)
 	}
@@ -168,25 +178,25 @@ const createCategory = (data) => {
 
 	const div = document.createElement("div")
 	div.setAttribute("id", data.id)
-	div.setAttribute("class","grid-container")
+	div.setAttribute("class", "grid-container")
 	document.getElementById("pack-selector-container").appendChild(div)
 
 	const header = document.createElement("div")
-	header.setAttribute("class","grid-item selection-box section-header unselected")
+	header.setAttribute("class", "grid-item selection-box section-header unselected")
 	div.appendChild(header)
 
 	const name = document.createElement("p")
 	name.appendChild(document.createTextNode(data.name))
 	header.appendChild(name)
 
-	if (data.description!=undefined) {
+	if (data.description != undefined) {
 		const description = document.createElement("p")
 		description.appendChild(document.createTextNode(data.description))
-		description.setAttribute("class","section-description")
+		description.setAttribute("class", "section-description")
 		header.appendChild(description)
-		name.setAttribute("class","section-name section-name-with-description")
+		name.setAttribute("class", "section-name section-name-with-description")
 	}
-	else name.setAttribute("class","section-name")
+	else name.setAttribute("class", "section-name")
 
 }
 
@@ -207,12 +217,12 @@ modulesxobj.onreadystatechange = function () {
 				categoryData = JSON.parse(categoriesxobj.responseText)
 
 				modulesJSON.sort((a, b) => (a.label > b.label) ? 1 : -1) // alphabetically sort modules
-				
-				const categoryList = categoryData.map(i=>i.id)
+
+				const categoryList = categoryData.map(i => i.id)
 				let categories = {}
 
 				for (category of categoryList) categories[category] = []
-				
+
 				for (index in modulesJSON) if (!modulesJSON[index].hidden) {
 
 					if (!categoryList.includes(modulesJSON[index].category)) {
@@ -221,7 +231,7 @@ modulesxobj.onreadystatechange = function () {
 
 					categories[modulesJSON[index].category].push(modulesJSON[index]) // add category to 
 				}
-				
+
 				for (category of categoryData) {
 
 					// create category
@@ -229,7 +239,7 @@ modulesxobj.onreadystatechange = function () {
 
 					// add modules to category
 					for (data of categories[category.id]) createModuleSelector(data)
-					
+
 				}
 
 				// remove any categories that have no modules
@@ -249,11 +259,11 @@ function send() {
 	const formData = new FormData(form)
 	xhr = new XMLHttpRequest()
 
-	xhr.open("POST", "/uploadpack")  
+	xhr.open("POST", "/uploadpack")
 	// xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded")
 	xhr.send(formData)
-	
-	xhr.onreadystatechange = ()=>{
+
+	xhr.onreadystatechange = () => {
 		if (xhr.readyState == 4 && xhr.status == "200") {
 			const response = JSON.parse(xhr.response)
 			if (response.found) { // the selected modules were found successfully
@@ -267,13 +277,13 @@ function send() {
 				selectedModules = []
 
 				// select modules from the pack that was uploaded
-				const availableModules = modulesJSON.map(x=>x.id)
+				const availableModules = modulesJSON.map(x => x.id)
 				for (id of response.modulesToSelect) {
 					if (availableModules.includes(id)) toggleSelected(id)
 				}
 
 				// show alert saying that the pack was uploaded with success
-				alert(`Your pack was uploaded with success. You can now edit your selection before downloading.\nYour previous selection has been cleared, and replaced with the following:\n\n${selectedModules.map(x=>modulesJSON[availableModules.indexOf(x)].label).join("\n")}`)
+				alert(`Your pack was uploaded with success. You can now edit your selection before downloading.\nYour previous selection has been cleared, and replaced with the following:\n\n${selectedModules.map(x => modulesJSON[availableModules.indexOf(x)].label).join("\n")}`)
 
 			} else {
 				// alert the user that the selected modules was not found
