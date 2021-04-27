@@ -213,6 +213,7 @@
 		"category": "basaltColumns",
 		"optifine": "required",
 		"incompatibilities": ["pinkFoxes"]
+		"pinku": true
 	},
 	{
 		"id": "boldMuddyAxolotl",
@@ -351,7 +352,8 @@
 		"label": "Japanese Lanterns",
 		"description": "Replaces both Lantners to be Japanese styled.",
 		"category": "misc",
-		"incompatibilities": ["dungeonsSoulLantern", "chineseLanterns"]
+		"incompatibilities": ["dungeonsSoulLantern", "chineseLanterns"],
+		"pinku": true
 	},
 	{
 		"id": "archIllagerCrown",
@@ -404,28 +406,32 @@
 		"label": "Chinese Lanterns",
 		"description": "Replaces both Lantners to be Chinese styled.",
 		"category": "misc",
-		"incompatibilities": ["dungeonsSoulLantern", "japaneseLanterns"]
+		"incompatibilities": ["dungeonsSoulLantern", "japaneseLanterns"],
+		"pinku": true
 	},
 	{
 		"id": "glowmethystSquid",
 		"label": "Glowmethyst Squid",
 		"description": "Changes the Glow Squid to appear like Amethyst.",
 		"category": "snapshot",
-		"incompatibilities": ["makeupGlowsquid", "glowyGlowsquid", "prismarineGlowsquid", "glowPickler"]
+		"incompatibilities": ["makeupGlowsquid", "glowyGlowsquid", "prismarineGlowsquid", "glowPickler"],
+		"pinku": true
 	},
 	{
 		"id": "mossCreeper",
 		"label": "Moss Creepers",
 		"description": "Retextures the Creeper to be covered with moss",
 		"category": "mobs",
-		"incompatibilities": ["uwuCreepers", "beeCreeper", "beeCreeperDungeons"]
+		"incompatibilities": ["uwuCreepers", "beeCreeper", "beeCreeperDungeons"],
+		"pinku": true
 	},
 	{
 		"id": "pinkFoxes",
 		"label": "Pink Foxes",
 		"description": "Retextures both fox types to be a little bit more pink.",
 		"category": "basaltColumns",
-		"incompatibilities": ["basaltBuddies"]
+		"incompatibilities": ["basaltBuddies"],
+		"pinku": true
 	},
 	{
 		"id": "oinkersArmor",
@@ -447,6 +453,25 @@
 		"description": "Rename a Carved Pumpkin to Muddy Rabbit Ears",
 		"category": "pumpkinHats",
 		"optifine": "required"
+	},
+	{
+		"id": "mysteryTrader",
+		"label": "Mystery Trader",
+		"description": "Retextures the Wandering Trader to be heavily themed after the Mystery Merchant",
+		"category": "dungeons"
 
+	},
+	{
+		"id": "puffierPufferfish",
+		"label": "Puffier Pufferfish",
+		"description": "Makes all stages of Pufferfish to the biggest size, SO CUTE!",
+		"category": "tweaks",
+		"optifine": "required"
+	},
+	{
+		"id": "warpcylium",
+		"label": "Warpcylium",
+		"description": "Retextures Warped Nylium to be a bit like Myclium",
+		"category": "tweaks"
 	}
 ]
