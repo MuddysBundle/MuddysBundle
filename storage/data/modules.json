@@ -212,7 +212,7 @@
 		"description": "Any fox or rabbit who spawn in Basalt Deltas will become EVIL basalt mobs!",
 		"category": "basaltColumns",
 		"optifine": "required",
-		"incompatibilities": ["pinkFoxes"]
+		"incompatibilities": ["pinkFoxes"],
 		"pinku": true
 	},
 	{
