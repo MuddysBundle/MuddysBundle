@@ -322,3 +322,7 @@ a, a:hover, a:active, a:visited {
 	margin: 5px;
 	line-height: 0;
 }
+
+#site-logo {
+	cursor: pointer;
+}
