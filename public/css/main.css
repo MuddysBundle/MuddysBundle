@@ -57,7 +57,7 @@ span.description {
 }
 
 .sidebar>* {
-	width: 25%;
+	width: calc(25% - 20px);
 	margin: 0;
 	height: auto;
 	/* Full height */
