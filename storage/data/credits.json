@@ -3,9 +3,9 @@
         "name": "Bold Muddy",
         "group": "team",
         "link": "https://www.planetminecraft.com/member/bold_muddy/",
-        "type": "dynamic",
-        "uuid": "83c10ac5c3484e20bee044ac6ea4440c",
-        "desc": "Resource Pack Developer"
+        "type": "static",
+        "avatar": "Bold_Muddy.png",
+        "desc": "Resource Pack Development"
     },
     {
         "name": "Beatso",
@@ -13,6 +13,38 @@
         "link": "https://www.beatso.tk",
         "type": "dynamic",
         "uuid": "895ae84776e0441283db420cf8444e30",
-        "desc": "Lead Website Developer"
+        "desc": "Website Development"
+    },
+    {
+        "name": "hatchibombotar",
+        "group": "team",
+        "link": "https://hatchibombotar.com/",
+        "type": "static",
+        "avatar": "hatchibombotar.png",
+        "desc": "Website Development"
+    },
+    {
+        "name": "Pinku Rinku",
+        "group": "contributor",
+        "link": "https://www.youtube.com/channel/UCEh2vxNdDr6n3Hi_3QsrCsA",
+        "type": "static",
+        "avatar": "PinkuRinku.png",
+        "desc": "Some Packs and Emotional Support"
+    },
+    {
+        "name": "LaserFont0103",
+        "group": "contributor",
+        "link": "https://twitter.com/LaserFont0103",
+        "type": "static",
+        "avatar": "LaserFont0103.png",
+        "desc": "Some Packs and Emotional Support"
+    },
+    {
+        "name": "RavenVLemon",
+        "group": "contributor",
+        "link": "http://example.com/",
+        "type": "dynamic",
+        "uuid": "5348dd8f12c346ba8f4f75ea0f5d1241",
+        "desc": ""
     }
 ]

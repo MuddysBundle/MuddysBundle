@@ -13,7 +13,7 @@ function createModuleSelector(data) {
 
 	const icon = document.createElement("img")
 	icon.setAttribute("class","pack-icon")
-	if (data.type=="dynamic") icon.setAttribute("src",`https://crafatar.com/avatars/${data.uuid}`)
+	if (data.type=="dynamic") icon.setAttribute("src",`https://crafatar.com/renders/body/${data.uuid}`)
 	else icon.setAttribute("src",`/avatars/${data.avatar}`)
 	div.appendChild(icon)
 
