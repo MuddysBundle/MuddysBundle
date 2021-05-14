@@ -158,14 +158,14 @@
 		"label": "Powder2Quicksand",
 		"description": "Changes Powder Snow to Quicksand",
 		"category": "snapshot",
-		"incompatibilities": ["mud"]
+		"incompatibilities": ["mud", "powdersnowier"]
 	},
 	{
 		"id": "mud",
 		"label": "Powder2Mud",
 		"description": "Changes Powder Snow to Mud from Minecraft: Earth",
 		"category": "snapshot",
-		"incompatibilities": ["quicksand"]
+		"incompatibilities": ["quicksand", "powdersnowier"]
 	},
 	{
 		"id": "pooplessHorse",
@@ -473,5 +473,37 @@
 		"label": "Warpcylium",
 		"description": "Retextures Warped Nylium to be a bit like Myclium",
 		"category": "tweaks"
+	},
+	{
+		"id": "thiccBees",
+		"label": "Thicc Bees",
+		"description": "Remodels bees to have a big butt",
+		"category": "mobs",
+		"optifine": "required"
+	},
+	{
+		"id": "azaleaSaplings",
+		"label": "Azalea Saplings",
+		"description": "Remodels small dripleaf to a large and beautiful Azalea Bush",
+		"category": "snapshot"
+	},
+	{
+		"id": "gompers",
+		"label": "Gompers the Goat",
+		"description": "Retextures the goat to look like Gompers from Gravity Falls",
+		"category": "snapshot"
+	},
+	{
+		"id": "borderlessGold",
+		"label": "Borderless Gold Block",
+		"description": "Retextures the gold block to be somewhat borderless",
+		"category": "tweaks"
+	},
+	{
+		"id": "powdersnowier",
+		"label": "Snowier Snow",
+		"description": "Renames Powder Snow to Snowier Snow",
+		"category": "snapshot"
+		"incompatibilities": ["mud", "quicksand"]
 	}
 ]
