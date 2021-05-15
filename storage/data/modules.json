@@ -503,7 +503,14 @@
 		"id": "powdersnowier",
 		"label": "Snowier Snow",
 		"description": "Renames Powder Snow to Snowier Snow",
-		"category": "snapshot"
+		"category": "snapshot",
 		"incompatibilities": ["mud", "quicksand"]
+	},
+	{
+		"id": "bigRabbits",
+		"label": "Big Rabbits",
+		"description": "Remodels rabbits to be the same size as 1.8",
+		"category": "tweaks",
+		"optifine": "required"
 	}
 ]
