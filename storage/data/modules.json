@@ -301,7 +301,7 @@
 		"label": "Heart Swords",
 		"description": "Changes the all Swords to a Heart on a Stick",
 		"category": "gear",
-		"incompatibilities": ["sunGrace", "honeyDiamondGear", "honeyNetheriteGear", "heartSwords"]
+		"incompatibilities": ["sunGrace", "honeyDiamondGear", "honeyNetheriteGear"]
 	},
 	{
 		"id": "beeCreeperDungeons",
