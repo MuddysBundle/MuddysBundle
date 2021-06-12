@@ -67,7 +67,7 @@
 		"label": "Basaltite",
 		"description": "Netherite Tools become Basalt themed.",
 		"category": "gear",
-		"incompatibilities": ["honeyPackNetherite", "emeraldite", "sunGrace", "anniversaryGyllene",]
+		"incompatibilities": ["honeyPackNetherite", "emeraldite", "sunGrace", "anniversaryGyllene"]
 	},
 	{
 		"id": "emeraldite",
@@ -465,7 +465,7 @@
 		"label": "Thicc Bees",
 		"description": "Remodels bees to have a big butt",
 		"category": "mobs",
-		"optifine": "required"
+		"optifine": "required",
 		"incompatibilities": ["ghastlyBeekeeping"]
 	},
 	{
@@ -504,14 +504,14 @@
 		"label": "Anniversary+ Gyllene",
 		"description": "Adds the Gyllene content from Anniversary+",
 		"category": "gear",
-		"incompatibilities": ["amethystTrident", "basaltite", "diamondTrident", "emeraldite", "heartSwords", "honeyNetheriteGear", "netheriteElytra", "satanicTrident", sunGrace", "whisperingTrident", "monetherite"]
+		"incompatibilities": ["amethystTrident", "basaltite", "diamondTrident", "emeraldite", "heartSwords", "honeyNetheriteGear", "netheriteElytra", "satanicTrident", "sunGrace", "whisperingTrident", "monetherite"]
 	},
 	{
 		"id": "monetherite",
 		"label": "More Netherite Gear",
 		"description": "Retextures lots of tools to be look like Netherite",
 		"category": "gear",
-		"incompatibilities": ["amethystTrident", "basaltite", "diamondTrident", "emeraldite", "heartSwords", "honeyNetheriteGear", "netheriteElytra", "satanicTrident", sunGrace", "whisperingTrident", "anniversaryGyllene"]
+		"incompatibilities": ["amethystTrident", "basaltite", "diamondTrident", "emeraldite", "heartSwords", "honeyNetheriteGear", "netheriteElytra", "satanicTrident", "sunGrace", "whisperingTrident", "anniversaryGyllene"]
 	},
 	{
 		"id": "ghastlyBeekeeping",
@@ -520,6 +520,6 @@
 		"category": "dungeons",
 		"optifine": "required",
 		"incompatibilities": ["thiccBees"]
-	},
 	}
+	
 ]
