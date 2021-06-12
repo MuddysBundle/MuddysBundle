@@ -11,14 +11,14 @@
 		"label": "Satanic Trident",
 		"description": "Recolors the Trident with colors straight from hell!",
 		"category": "gear",
-		"incompatibilities": ["amethystTrident", "diamondTrident", "whisperingTrident"]
+		"incompatibilities": ["amethystTrident", "diamondTrident", "whisperingTrident", "anniversaryGyllene", "monetherite"]
 	},
 	{
 		"id": "diamondTrident",
 		"label": "Diamond Trident",
 		"description": "Recolors the Trident to be themed with the rest of the Diamond Tools.",
 		"category": "gear",
-		"incompatibilities": ["amethystTrident", "satanicTrident", "whisperingTrident"]
+		"incompatibilities": ["amethystTrident", "satanicTrident", "whisperingTrident", "anniversaryGyllene", "monetherite"]
 	},
 	{
 		"id": "steverStand",
@@ -67,28 +67,28 @@
 		"label": "Basaltite",
 		"description": "Netherite Tools become Basalt themed.",
 		"category": "gear",
-		"incompatibilities": ["honeyPackNetherite", "emeraldite", "sunGrace"]
+		"incompatibilities": ["honeyPackNetherite", "emeraldite", "sunGrace", "anniversaryGyllene",]
 	},
 	{
 		"id": "emeraldite",
 		"label": "Emeraldite",
 		"description": "Netherite Tools become Emerald themed.",
 		"category": "gear",
-		"incompatibilities": ["honeyPackNetherite", "basaltite", "sunGrace", "heartSwords"]
+		"incompatibilities": ["honeyPackNetherite", "basaltite", "sunGrace", "heartSwords", "anniversaryGyllene"]
 	},
 	{
 		"id": "sunGrace",
 		"label": "Sun's Grace",
 		"description": "Netherite Tools become Sun's Grace themed",
 		"category": "gear",
-		"incompatibilities": ["honeyPackNetherite", "emeraldite", "basaltite"]
+		"incompatibilities": ["honeyPackNetherite", "emeraldite", "basaltite", "anniversaryGyllene"]
 	},
 	{
 		"id": "honeyNetheriteGear",
 		"label": "Honey Gear - Netherite",
 		"description": "Netherite Tools become Sun's Grace themed",
 		"category": "gear",
-		"incompatibilities": ["sunGrace", "basaltite", "emeraldite"]
+		"incompatibilities": ["sunGrace", "basaltite", "emeraldite", "anniversaryGyllene"]
 	},
 	{
 		"id": "honeyDiamondGear",
@@ -143,29 +143,22 @@
 		"id": "dungeonsLightningRodPlus",
 		"label": "Dungeons Lightning Rod+",
 		"description": "Changes Lightning Rod to look like the one from Minecraft: Dungeons!",
-		"category": "snapshot",
+		"category": "dungeons",
 		"incompatibilities": ["iceWandPlus"]
 	},
 	{
 		"id": "iceWandPlus",
 		"label": "Ice Wand Lightning Rod+",
 		"description": "Changes Lightning Rod to look like the Ice Wand from Minecraft: Dungeons!",
-		"category": "snapshot",
+		"category": "dungeons",
 		"incompatibilities": ["dungeonsLightningRodPlus"]
 	},
 	{
-		"id": "quicksand",
-		"label": "Powder2Quicksand",
-		"description": "Changes Powder Snow to Quicksand",
-		"category": "snapshot",
+		"id": "snowpowder",
+		"label": "Biome Powder Snow",
+		"description": "Retexture Powder Snow to either Mud or Quicksand, according to the biome",
+		"category": "misc",
 		"incompatibilities": ["mud", "powdersnowier"]
-	},
-	{
-		"id": "mud",
-		"label": "Powder2Mud",
-		"description": "Changes Powder Snow to Mud from Minecraft: Earth",
-		"category": "snapshot",
-		"incompatibilities": ["quicksand", "powdersnowier"]
 	},
 	{
 		"id": "pooplessHorse",
@@ -177,28 +170,28 @@
 		"id": "redstoneSculkSensor",
 		"label": "Redstone Sculk Sensor",
 		"description": "Changes the Sculk Sensor to be Redstone themed.",
-		"category": "snapshot",
+		"category": "tweaks",
 		"incompatibilities": ["redstoneLampSculkSensor", "cakeLie"]
 	},
 	{
 		"id": "redstoneLampSculkSensor",
 		"label": "Redstone Lamp Sculk Sensor",
 		"description": "Changes the Sculk Sensor to be Redstone themed, but with a lamp instead of torches.",
-		"category": "snapshot",
+		"category": "tweaks",
 		"incompatibilities": ["redstoneSculkSensor", "cakeLie"]
 	},
 	{
 		"id": "cakeLie",
 		"label": "Cake is a Lie",
 		"description": "Changes the Sculk Sensor to appear like a cake, a fake one!",
-		"category": "snapshot",
+		"category": "misc",
 		"incompatibilities": ["redstoneSculkSensor", "redstoneLampSculkSensor"]
 	},
 	{
 		"id": "hailstone",
 		"label": "Hailstone",
 		"description": "Changes the Dripstone blocks to Hailstone, an icy alternate version.",
-		"category": "snapshot"
+		"category": "misc"
 	},
 	{
 		"id": "boldMuddy",
@@ -219,7 +212,7 @@
 		"id": "boldMuddyAxolotl",
 		"label": "Bold Muddy Axolotl",
 		"description": "Changes the rare blue axolotl to Bold Muddy",
-		"category": "snapshot",
+		"category": "basaltColumns",
 		"incompatibilities": ["ewanAxolotl"]
 	},
 	{
@@ -246,21 +239,21 @@
 		"id": "makeupGlowsquid",
 		"label": "Makeup Glow Squid",
 		"description": "Removes a weird glow spot on the Glow Squid's Face.",
-		"category": "snapshot",
+		"category": "tweaks",
 		"incompatibilities": ["glowyGlowsquid", "prismarineGlowsquid", "glowPickler", "glowmethystSquid"]
 	},
 	{
 		"id": "glowyGlowsquid",
 		"label": "Glowy Glow Squid",
 		"description": "Makes the Glow Squid even more glowier!",
-		"category": "snapshot",
+		"category": "mobs",
 		"incompatibilities": ["makeupGlowsquid", "prismarineGlowsquid", "glowPickler", "glowmethystSquid"]
 	},
 	{
 		"id": "prismarineGlowsquid",
 		"label": "Prismarine Glow Squid",
 		"description": "Makes the Glow Squid look prismarine like.",
-		"category": "snapshot",
+		"category": "mobs",
 		"incompatibilities": ["glowyGlowsquid", "makeupGlowsquid", "glowPickler", "glowmethystSquid"]
 	},
 	{
@@ -274,7 +267,7 @@
 		"label": "Amethyst Trident",
 		"description": "Recolors the Trident to be Amethyst Themed, with sounds too!",
 		"category": "gear",
-		"incompatibilities": ["satanicTrident", "diamondTrident", "whisperingTrident"]
+		"incompatibilities": ["satanicTrident", "diamondTrident", "whisperingTrident", "anniversaryGyllene", "monetherite"]
 	},
 	{
 		"id": "buzzyNest",
@@ -282,13 +275,6 @@
 		"description": "Replaces Acacia Signs with the Buzzy Nest from Minecraft: Dungeons",
 		"category": "dungeons",
 		"optifine": "required"
-	},
-	{
-		"id": "ewanAxolotl",
-		"label": "Ewan Axolotl",
-		"description": "Changes the rare blue axolotl to Ewan Howell",
-		"category": "snapshot",
-		"incompatibilities": ["boldMuddyAxolotl"]
 	},
 	{
 		"id": "loveGolem",
@@ -301,7 +287,7 @@
 		"label": "Heart Swords",
 		"description": "Changes the all Swords to a Heart on a Stick",
 		"category": "gear",
-		"incompatibilities": ["sunGrace", "honeyDiamondGear", "honeyNetheriteGear"]
+		"incompatibilities": ["sunGrace", "honeyDiamondGear", "honeyNetheriteGear", "anniversaryGyllene"]
 	},
 	{
 		"id": "beeCreeperDungeons",
@@ -386,13 +372,13 @@
 		"id": "lushCampfire",
 		"label": "Lush Campfire",
 		"description": "Spore Blossoms are changed to appear like upside down green flamed campfires.",
-		"category": "snapshot"
+		"category": "misc"
 	},
 	{
 		"id": "glowPickler",
 		"label": "Glow Pickler",
 		"description": "Changes the Glow Squid to appear like a Sea Pickle.",
-		"category": "snapshot",
+		"category": "mobs",
 		"incompatibilities": ["makeupGlowsquid", "glowyGlowsquid", "prismarineGlowsquid", "glowmethystSquid"]
 	},
 	{
@@ -413,7 +399,7 @@
 		"id": "glowmethystSquid",
 		"label": "Glowmethyst Squid",
 		"description": "Changes the Glow Squid to appear like Amethyst.",
-		"category": "snapshot",
+		"category": "mobs",
 		"incompatibilities": ["makeupGlowsquid", "glowyGlowsquid", "prismarineGlowsquid", "glowPickler"],
 		"pinku": true
 	},
@@ -445,7 +431,7 @@
 		"label": "Whispering Trident",
 		"description": "Recolors the Trident to appear like the Whispering Spear from Minecraft: Dungeons",
 		"category": "dungeons",
-		"incompatibilities": ["amethystTrident", "diamondTrident", "satanicTrident"]
+		"incompatibilities": ["amethystTrident", "diamondTrident", "satanicTrident", "anniversaryGyllene"]
 	},
 	{
 		"id": "muddyRabbitEars",
@@ -480,18 +466,19 @@
 		"description": "Remodels bees to have a big butt",
 		"category": "mobs",
 		"optifine": "required"
+		"incompatibilities": ["ghastlyBeekeeping"]
 	},
 	{
 		"id": "azaleaSaplings",
 		"label": "Azalea Saplings",
 		"description": "Remodels small dripleaf to a large and beautiful Azalea Bush",
-		"category": "snapshot"
+		"category": "tweaks"
 	},
 	{
 		"id": "gompers",
 		"label": "Gompers the Goat",
 		"description": "Retextures the goat to look like Gompers from Gravity Falls",
-		"category": "snapshot"
+		"category": "mobs"
 	},
 	{
 		"id": "borderlessGold",
@@ -503,8 +490,7 @@
 		"id": "powdersnowier",
 		"label": "Snowier Snow",
 		"description": "Renames Powder Snow to Snowier Snow",
-		"category": "snapshot",
-		"incompatibilities": ["mud", "quicksand"]
+		"category": "tweaks"
 	},
 	{
 		"id": "bigRabbits",
@@ -512,5 +498,28 @@
 		"description": "Remodels rabbits to be the same size as 1.8",
 		"category": "tweaks",
 		"optifine": "required"
+	},
+	{
+		"id": "anniversaryGyllene",
+		"label": "Anniversary+ Gyllene",
+		"description": "Adds the Gyllene content from Anniversary+",
+		"category": "gear",
+		"incompatibilities": ["amethystTrident", "basaltite", "diamondTrident", "emeraldite", "heartSwords", "honeyNetheriteGear", "netheriteElytra", "satanicTrident", sunGrace", "whisperingTrident", "monetherite"]
+	},
+	{
+		"id": "monetherite",
+		"label": "More Netherite Gear",
+		"description": "Retextures lots of tools to be look like Netherite",
+		"category": "gear",
+		"incompatibilities": ["amethystTrident", "basaltite", "diamondTrident", "emeraldite", "heartSwords", "honeyNetheriteGear", "netheriteElytra", "satanicTrident", sunGrace", "whisperingTrident", "anniversaryGyllene"]
+	},
+	{
+		"id": "ghastlyBeekeeping",
+		"label": "Ghastly Beekeeping",
+		"description": "Changes Bees and bee content to Baby Ghast content",
+		"category": "dungeons",
+		"optifine": "required",
+		"incompatibilities": ["thiccBees"]
+	},
 	}
 ]

@@ -1,0 +1,10 @@
+{
+  "item.minecraft.honey_bottle": "Ghast Substance",
+  "item.minecraft.honeycomb": "Ghast's Scales",
+  "item.minecraft.bee_spawn_egg": "Baby Ghast Spawn Egg",
+  "block.minecraft.honey_block": "Ghastly Block",
+  "block.minecraft.honeycomb_block": "Ghastly Scale Block",
+  "block.minecraft.bee_nest": "Soul Ghastnest",
+  "block.minecraft.beehive": "Warped Ghasthive",
+  "entity.minecraft.bee": "Baby Ghast"
+}
