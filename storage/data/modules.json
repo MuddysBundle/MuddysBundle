@@ -521,7 +521,7 @@
 		"id": "quartzInventory",
 		"label": "Better Inventory Quartz",
 		"description": "Makes Quartz Blocks easier to identify when in Inventory. Doesn't affect placed blocks!",
-		"category": "tweaks",
+		"category": "tweaks"
 	},
 	{
 		"id": "vulpusSunflowers",
@@ -542,7 +542,7 @@
 		"id": "overflowSnow",
 		"label": "Overflowing Powder Snow ",
 		"description": "Makes it easier to spot whether a Powder Snow Cauldron is full or not.",
-		"category": "tweaks",
+		"category": "tweaks"
 	},
 	{
 		"id": "betterSculkSensor",
@@ -611,5 +611,5 @@
 		"category": "misc",
 		"optifine": "required",
 		"incompatibilities": ["lushCampfire"]
-	},
+	}
 ]
