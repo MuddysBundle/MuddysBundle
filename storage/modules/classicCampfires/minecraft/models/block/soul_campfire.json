@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/template_campfire",
+  "textures": {
+		"3": "block/soul_campfire_top",
+		"top": "block/soul_campfire_top_on",
+		"side": "block/soul_campfire_side",
+		"fire": "block/soul_campfire_fire",
+		"particle": "block/soul_campfire_top"
+  }
+}

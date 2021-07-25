@@ -27,12 +27,12 @@
 			"to": [13, 13, 13],
 			"rotation": {"angle": 0, "axis": "y", "origin": [11, 11, 11]},
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#tendrils"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#tendrils"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#tendrils"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#tendrils"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#tendrils"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#tendrils"}
+				"north": {"uv": [3, 3, 13, 13], "texture": "#tendrils"},
+				"east": {"uv": [3, 3, 13, 13], "texture": "#tendrils"},
+				"south": {"uv": [3, 3, 13, 13], "texture": "#tendrils"},
+				"west": {"uv": [3, 3, 13, 13], "texture": "#tendrils"},
+				"up": {"uv": [3, 3, 13, 13], "texture": "#tendrils"},
+				"down": {"uv": [3, 3, 13, 13], "texture": "#tendrils"}
 			}
 		}
 	],
@@ -74,6 +74,7 @@
 		{
 			"name": "sculk_sensor_1",
 			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [0, 1]
 		}
 	]

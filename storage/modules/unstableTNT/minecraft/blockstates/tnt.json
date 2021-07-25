@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "unstable=false": {
+      "model": "minecraft:block/tnt"
+    },
+    "unstable=true": {
+      "model": "minecraft:block/unstable_tnt"
+    }
+  }
+}

@@ -4,7 +4,7 @@
 		"description": "Any Creeper spawned in flower forests, oak or birch forests will become Bee Creepers!",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["uwuCreepers", "beeCreeperDungeons", "mossCreeper"]
+		"incompatibilities": ["uwuCreepers", "beeCreeperDungeons", "mossCreeper", "rainbowMobs"]
 	},
 	{
 		"id": "satanicTrident",
@@ -47,13 +47,6 @@
 		"description": "You can rename shields to '<material> shield' and it will change. List of materials can be found in the files.",
 		"category": "gear",
 		"optifine": "required"
-	},
-	{
-		"id": "netheriteElytra",
-		"label": "Netherite Elytra",
-		"description": "Recolors Elytra to appear like Netherite.",
-		"category": "gear",
-		"incompatibilities": ["basaltElytra"]
 	},
 	{
 		"id": "beeStrider",
@@ -118,7 +111,7 @@
 		"description": "As if those creeplings weren't creepy enough... prepare to get spooked!",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["beeCreeper", "beeCreeperDungeons", "mossCreeper"]
+		"incompatibilities": ["beeCreeper", "beeCreeperDungeons", "mossCreeper", "rainbowMobs"]
 	},
 	{
 		"id": "uwuLanguage",
@@ -171,21 +164,21 @@
 		"label": "Redstone Sculk Sensor",
 		"description": "Changes the Sculk Sensor to be Redstone themed.",
 		"category": "tweaks",
-		"incompatibilities": ["redstoneLampSculkSensor", "cakeLie"]
+		"incompatibilities": ["redstoneLampSculkSensor", "cakeLie", "betterSculkSensor"]
 	},
 	{
 		"id": "redstoneLampSculkSensor",
 		"label": "Redstone Lamp Sculk Sensor",
 		"description": "Changes the Sculk Sensor to be Redstone themed, but with a lamp instead of torches.",
 		"category": "tweaks",
-		"incompatibilities": ["redstoneSculkSensor", "cakeLie"]
+		"incompatibilities": ["redstoneSculkSensor", "cakeLie", "betterSculkSensor"]
 	},
 	{
 		"id": "cakeLie",
 		"label": "Cake is a Lie",
 		"description": "Changes the Sculk Sensor to appear like a cake, a fake one!",
 		"category": "misc",
-		"incompatibilities": ["redstoneSculkSensor", "redstoneLampSculkSensor"]
+		"incompatibilities": ["redstoneSculkSensor", "redstoneLampSculkSensor", "betterSculkSensor"]
 	},
 	{
 		"id": "hailstone",
@@ -197,7 +190,8 @@
 		"id": "boldMuddy",
 		"label": "Bold Muddy",
 		"description": "Changes the rare black rabbit to Bold Muddy",
-		"category": "basaltColumns"
+		"category": "basaltColumns",
+		"incompatibilities": ["jumboRabbits"]
 	},
 	{
 		"id": "basaltBuddies",
@@ -205,7 +199,7 @@
 		"description": "Any fox or rabbit who spawn in Basalt Deltas will become EVIL basalt mobs!",
 		"category": "basaltColumns",
 		"optifine": "required",
-		"incompatibilities": ["pinkFoxes"],
+		"incompatibilities": ["pinkFoxes", "jumboRabbits", "rainbowMobs"],
 		"pinku": true
 	},
 	{
@@ -295,7 +289,7 @@
 		"description": "Any Creeper spawned in flower forests, oak or birch forests will become Bee Creepers!, but with the Dungeons Creeper",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["uwuCreepers", "beeCreeper", "mossCreeper"]
+		"incompatibilities": ["uwuCreepers", "beeCreeper", "mossCreeper", "rainbowMobs"]
 	},
 	{
 		"id": "cowStyledMoobloom",
@@ -372,7 +366,8 @@
 		"id": "lushCampfire",
 		"label": "Lush Campfire",
 		"description": "Spore Blossoms are changed to appear like upside down green flamed campfires.",
-		"category": "misc"
+		"category": "misc",
+		"incompatibilities": ["classicCampfires"]
 	},
 	{
 		"id": "glowPickler",
@@ -408,7 +403,7 @@
 		"label": "Moss Creepers",
 		"description": "Retextures the Creeper to be covered with moss",
 		"category": "mobs",
-		"incompatibilities": ["uwuCreepers", "beeCreeper", "beeCreeperDungeons"],
+		"incompatibilities": ["uwuCreepers", "beeCreeper", "beeCreeperDungeons", "rainbowMobs"],
 		"pinku": true
 	},
 	{
@@ -466,7 +461,7 @@
 		"description": "Remodels bees to have a big butt",
 		"category": "mobs",
 		"optifine": "required",
-		"incompatibilities": ["ghastlyBeekeeping"]
+		"incompatibilities": ["ghastlyBeekeeping", "rainbowMobs"]
 	},
 	{
 		"id": "azaleaSaplings",
@@ -497,7 +492,8 @@
 		"label": "Big Rabbits",
 		"description": "Remodels rabbits to be the same size as 1.8",
 		"category": "tweaks",
-		"optifine": "required"
+		"optifine": "required",
+		"incompatibilities": ["jumboRabbits"]
 	},
 	{
 		"id": "anniversaryGyllene",
@@ -519,7 +515,101 @@
 		"description": "Changes Bees and bee content to Baby Ghast content",
 		"category": "dungeons",
 		"optifine": "required",
-		"incompatibilities": ["thiccBees"]
-	}
-	
+		"incompatibilities": ["thiccBees", "rainbowMobs"]
+	},
+	{
+		"id": "quartzInventory",
+		"label": "Better Inventory Quartz",
+		"description": "Makes Quartz Blocks easier to identify when in Inventory. Doesn't affect placed blocks!",
+		"category": "tweaks",
+	},
+	{
+		"id": "vulpusSunflowers",
+		"label": "Vulpus Sunflowers",
+		"description": "Improves the look of Sunflowers",
+		"category": "tweaks",
+		"pinku": true
+	},
+	{
+		"id": "vulpusLeaves",
+		"label": "Vulpus Leaves",
+		"description": "Changes some leaves to look better, includes falling leaves and retextured saplings.",
+		"category": "tweaks",
+		"optifine": "required",
+		"pinku": true
+	},
+	{
+		"id": "overflowSnow",
+		"label": "Overflowing Powder Snow ",
+		"description": "Makes it easier to spot whether a Powder Snow Cauldron is full or not.",
+		"category": "tweaks",
+	},
+	{
+		"id": "betterSculkSensor",
+		"label": "Better Sculk Sensor",
+		"description": "Animates the Sculk Sensor to look better..",
+		"category": "tweaks",
+		"incompatibilities": ["redstoneSculkSensor", "redstoneLampSculkSensor", "cakeLie"]
+	},
+	{
+		"id": "unstableTnt",
+		"label": "Visual Unstable TNT",
+		"description": "Changes the TNT text to red, if the TNT is unstable.",
+		"category": "tweaks",
+		"incompatibilities": ["enchantmentTnt"]
+	},
+	{
+		"id": "enchantmentTnt",
+		"label": "Enchantment Language TNT",
+		"description": "Changes the TNT text to Enchantment Language.",
+		"category": "tweaks",
+		"incompatibilities": ["unstableTnt"]
+	},
+	{
+		"id": "earthCreepers",
+		"label": "Earth Creepers",
+		"description": "Adds a variety of different Creepers based on biomes, all creeper designs are inspired by Minecraft: Earth Mobs!",
+		"category": "mobs",
+		"optifine": "required",
+		"incompatibilities": ["beeCreeper", "beeCreeperDungeons"]
+	},
+	{
+		"id": "earthFoxes",
+		"label": "Earth Foxes",
+		"description": "Adds a variety of different Foxes based on biomes, all fox designs are inspired by Minecraft: Earth Mobs!",
+		"category": "mobs",
+		"optifine": "required",
+		"incompatibilities": ["pinkFoxes", "rainbowMobs"],
+		"pinku": true
+	},
+	{
+		"id": "jumboRabbits",
+		"label": "Jumbo Rabbits",
+		"description": "Changes Rabbit Model to appear like the big Jumbo Rabbit from Minecraft: Earth",
+		"category": "mobs",
+		"optifine": "required",
+		"incompatibilities": ["bigRabbits", "boldMuddy", "basaltBuddies"]
+	},
+	{
+		"id": "rainbowMobs",
+		"label": "Rainbow Mobs",
+		"description": "Adds Rainbow variants to a few mobs, inspired by the Rainbow Sheep from Minecraft: Earth.",
+		"category": "mobs",
+		"optifine": "required",
+		"incompatibilities": ["uwuCreepers", "beeCreeperDungeons", "mossCreeper", "beeCreeper", "thiccBees", "ghastlyBeekeeping", "pinkFoxes", "earthFoxes", "basaltBuddies"]
+	},
+	{
+		"id": "devolutionPainting",
+		"label": "Devolution Painting",
+		"description": "Adds a Painting with the Devolution Pixel Art I made, isn't it so cool?",
+		"category": "basaltColumns"
+	},
+	{
+		"id": "classicCampfires",
+		"label": "Classic Campfires",
+		"description": "Remodells the Campfires to appear a bit more simple, like their original counterpart. It's inspired by the first version of Campfires!",
+		"category": "misc",
+		"optifine": "required",
+		"incompatibilities": ["lushCampfire"]
+	},
 ]

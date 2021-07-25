@@ -1,0 +1,173 @@
+{
+	"textureSize": [128, 64],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"attach": true,
+            "texture": "textures/entity/creeper/creeper_accessories.png",
+			"invertAxis": "xy",
+			"translate": [0, -18, 0],
+			"boxes": [
+				{"coordinates": [-4, 11, -2, 8, 5, 4], "textureOffset": [48, 22], "sizeAdd": 0.25}
+			],
+			"submodels": [
+				{
+					"id": "head2",
+					"invertAxis": "xy",
+					"translate": [0, 18, 0],
+					"submodels": [
+						{
+							"id": "flowerbase",
+							"invertAxis": "xy",
+							"translate": [0, -2.75, 0],
+							"rotate": [0, -90, 0],
+							"boxes": [
+								{"coordinates": [-3, 10.75, 0, 6, 9, 0], "textureOffset": [0, 8]}
+							],
+							"submodels": [
+								{
+									"id": "flower",
+									"invertAxis": "xy",
+									"translate": [0, 15.25, 0],
+									"rotate": [0, 90, 0],
+									"submodels": [
+										{
+											"id": "body_sub_3",
+											"invertAxis": "xy",
+											"translate": [0, 0, 0],
+											"mirrorTexture": "u",
+											"boxes": [
+												{"coordinates": [-3, -4.5, 0, 6, 9, 0], "textureOffset": [0, 8]}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "jolly_horns",
+							"invertAxis": "xy",
+							"translate": [0, -18, -3],
+							"boxes": [
+								{"coordinates": [4, 24, 1, 7, 16, 0], "textureOffset": [0, 33]}
+							],
+							"submodels": [
+								{
+									"id": "mirror",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"mirrorTexture": "u",
+									"boxes": [
+										{"coordinates": [-11, 24, 1, 7, 16, 0], "textureOffset": [0, 33]}
+									]
+								}
+							]
+						},
+						{
+							"id": "muddy",
+							"invertAxis": "xy",
+							"translate": [-1, 0, -1],
+							"boxes": [
+								{"coordinates": [-3, 9, 0, 4, 6, 0], "textureOffset": [60, 5]},
+								{"coordinates": [-2, 8, -2, 4, 1, 4], "textureOffset": [60, 0]}
+							]
+						},
+						{
+							"id": "viler",
+							"invertAxis": "xy",
+							"translate": [-5, 16, -5],
+							"boxes": [
+								{"coordinates": [-5, -8.9, -5, 20, 2, 20], "textureOffset": [0, 0]}
+							],
+							"submodels": [
+								{
+									"id": "evil",
+									"invertAxis": "xy",
+									"translate": [8.5, 0.1, 1.5],
+									"rotate": [3, 0, 2],
+									"boxes": [
+										{"coordinates": [-7.2443, -6.98615, 0.36613, 7, 4, 7], "textureOffset": [0, 22]}
+									],
+									"submodels": [
+										{
+											"id": "wicked",
+											"invertAxis": "xy",
+											"translate": [-1.5, 4, 1.5],
+											"rotate": [7, 0, 4],
+											"boxes": [
+												{"coordinates": [-4.73103, -6.85565, 1.21065, 4, 4, 4], "textureOffset": [0, 0]}
+											],
+											"submodels": [
+												{
+													"id": "witch",
+													"invertAxis": "xy",
+													"translate": [-1.5, 4, 1.5],
+													"rotate": [15, 0, 6],
+													"boxes": [
+														{"coordinates": [-2.44364, -6.19862, 2.91427, 1, 2, 1], "textureOffset": [0, 0]}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "horned_sheep",
+							"invertAxis": "xy",
+							"translate": [-7, 0, 0],
+							"boxes": [
+								{"coordinates": [-1, 2, -3, 4, 7, 6], "textureOffset": [28, 22]},
+								{"coordinates": [-1, 2, -6, 4, 3, 3], "textureOffset": [14, 33]}
+							],
+							"submodels": [
+								{
+									"id": "mirror2",
+									"invertAxis": "xy",
+									"translate": [7, -18, 0],
+									"submodels": [
+										{
+											"id": "body_sub_13",
+											"invertAxis": "xy",
+											"translate": [0, 0, 0],
+											"mirrorTexture": "u",
+											"boxes": [
+												{"coordinates": [4, 20, -3, 4, 7, 6], "textureOffset": [28, 22]},
+												{"coordinates": [4, 20, -6, 4, 3, 3], "textureOffset": [14, 33]}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "james",
+							"invertAxis": "xy",
+							"translate": [0, -17, 0],
+							"boxes": [
+								{"coordinates": [-4, 25, -5, 8, 2, 9], "textureOffset": [71, 16]}
+							]
+						},
+						{
+							"id": "melon_golem",
+							"invertAxis": "xy",
+							"translate": [0, -18, 0],
+							"boxes": [
+								{"coordinates": [-4, 18, -4, 8, 8, 8], "textureOffset": [68, 0], "sizeAdd": 0.5}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"head2.rx": "head.rx",
+					"head2.ry": "head.ry",
+					"head2.rz": "head.rz"
+				}
+			]
+		}
+	]
+}
