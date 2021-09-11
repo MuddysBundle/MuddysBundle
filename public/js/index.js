@@ -157,6 +157,15 @@ function createModuleSelector(data) {
 	desc.appendChild(document.createTextNode(data.description))
 	div.appendChild(desc)
 
+	if (data.pinku) {
+		const pinkuIcon = document.createElement("img")
+		pinkuIcon.setAttribute("class", "pinku-icon")
+		pinkuIcon.setAttribute("src", `misc/pinku.png`)
+		// icon.setAttribute("id", data.id + "Img")
+		pinkuIcon.setAttribute("alt", "pinku pack")
+		div.appendChild(pinkuIcon)
+	}
+
 	let previewType = data.previewType
 	if (previewType == undefined) previewType = "png"
 	const preview = document.createElement("img")

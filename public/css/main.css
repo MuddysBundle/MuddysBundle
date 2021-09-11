@@ -329,3 +329,14 @@ a, a:hover, a:active, a:visited {
 input#file {
 	width: 70%;
 }
+
+.pinku-icon {
+	height: 40px;
+	position: absolute;
+    top: -15px;
+	left: -15px;
+}
+
+.selection-box {
+	position:relative;
+}
