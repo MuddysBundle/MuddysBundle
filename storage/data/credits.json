@@ -38,13 +38,5 @@
         "type": "static",
         "avatar": "LaserFont0103.png",
         "desc": "Oinkers Maclin Armor"
-    },
-    {
-        "name": "RavenVLemon",
-        "group": "contributor",
-        "link": "http://example.com/",
-        "type": "dynamic",
-        "uuid": "5348dd8f12c346ba8f4f75ea0f5d1241",
-        "desc": ""
     }
 ]
