@@ -27,11 +27,8 @@ function toggleSelected(id) {
 				toast.setAttribute("id", "incompatible-toast")
 				toast.appendChild(document.createTextNode("Incompatible pack selected"))
 				document.body.appendChild(toast)
-				
-				setTimeout(removeIncompatibleToast, 2000)
-				function removeIncompatibleToast() {
-					document.getElementById("incompatible-toast").remove()
-				}
+
+				setTimeout(() => { document.getElementById("incompatible-toast").remove() }, 3000)
 			}
 		}
 	}
@@ -91,6 +88,7 @@ function downloadPack() {
 	toast.setAttribute("id", "download-toast")
 	toast.appendChild(document.createTextNode("Your pack is beginning to download."))
 	document.body.appendChild(toast)
+	setTimeout(() => { document.getElementById("download-toast").remove() }, 10000)
 
 	const readablePlatform = platform.charAt(0).toUpperCase() + platform.slice(1)
 
