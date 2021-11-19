@@ -80,7 +80,8 @@ span.description {
 	padding: 8px 0 8px 16px;
 	text-align: center;
 	cursor: pointer;
-	box-shadow: inset 4px 0 0 0px #d6d6d6;
+	width: calc(100% - 8px);
+	margin: 4px 0 0 4px;
 }
 
 .primary-navbar-item {
@@ -95,8 +96,8 @@ span.description {
 	display: block;
 	padding: 8px 16px;
 	text-decoration: none;
-	border: 4px solid black;
-	box-shadow: inset 4px 4px 0 0px #d6d6d6, inset -4px -4px 0 0px #585658;
+	/* border: 4px solid black; */
+	/* box-shadow: inset 4px 4px 0 0px #d6d6d6, inset -4px -4px 0 0px #585658; */
 }
 
 .primary-navbar-link {
@@ -127,7 +128,8 @@ span.description {
 .upload-container>li {
 	display: block;
 	padding: 8px 0 8px 16px;
-	box-shadow: inset 4px 0 0 0px #d6d6d6;
+	margin: 4px 0 0 4px;
+	width: calc(100% - 8px);
 }
 
 .upload-title {
@@ -276,10 +278,9 @@ a, a:hover, a:active, a:visited {
 	/* Enable scrolling if the sidenav has too much content */
 	bottom: 16px;
 	background-color: var(--primary-backgrounda);
-	padding: 16px;
 	line-height: 1.6;
 	list-style-type: none;
-	padding: 0 16px 0 0;
+	padding: 0 0 8px 0;
 }
 
 .preview-container>li {
@@ -288,8 +289,7 @@ a, a:hover, a:active, a:visited {
 }
 
 #preview-section img {
-	box-shadow: inset 4px 4px 0 0px #d6d6d6, inset -4px -4px 0 0px #585658;
-	height: 150px;
+	width: calc(100% - 10px);
 	margin-bottom: 5px;
 }
 
