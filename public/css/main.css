@@ -252,8 +252,8 @@ a, a:hover, a:active, a:visited {
 	border-radius: 0.4vw;
 	text-align: center;
 	position: fixed;
-	right: 5%;
-	bottom: 5%;
+	right: 2%;
+	top: 5%;
 	color: var(--toast-font-color);
 }
 
